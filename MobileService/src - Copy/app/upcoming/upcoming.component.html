@@ -1,0 +1,73 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+<div class="menu_bar" >
+  <img src="../../assets/photos/Just.png" alt="img" width="16%" height="70%" id="imge">
+
+  <ul>
+      <li> <a [routerLink]="'/home'" id="highlight"><i class="fa-solid fa-mobile-screen-button"></i> Home</a> </li>
+      <li> <a [routerLink]="'/about'">About</a> </li>
+      <li> <a href="#">More<i class="fas fa-caret-down"></i></a>
+
+          <div class="dropdown_menu">
+              <ul>
+                  <li><a [routerLink]="'/newoffers'">New Offers</a></li>
+                  <li><a routerLink="upcoming">Upcoming </a></li>
+                  <li><a [routerLink]="'/contact'"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                  <li><a href="#"> Dashboard</a></li>
+              </ul>
+          </div>
+      </li>
+      <li> <a [routerLink]="'/login'">Login </a>
+  </ul>
+</div>
+<div class="upcoming_heading">
+  <h4>UPCOMING MODELS</h4>
+  <div class="container1" *ngFor="let product of products">
+    <div class="cnt1division" >
+      <div class="sub1cntdiv1">
+        <img src={{product.Image}} alt="Mobile 2" />
+      </div>
+      <div class="sub1cntdiv2">
+        <a routerLink="/upcoming/{{product.Model}}">
+          <div class="content1">
+            <h1>{{product.Model}}</h1>
+
+            <div>
+              <h3>
+                {{product.price}} <span id="expected_price">(Expected price)</span>
+              </h3>
+            </div>
+            <div class="content2">
+              <h2>key Specs</h2>
+            </div>
+            <div class="content3">
+              <div class="subcontent1">
+                <ul>
+                  <li><p>{{product.Description1}}</p></li>
+                  <li><p>{{product.Description2}}</p></li>
+                  <li><p>{{product.Description3}}</p></li>
+                  <li><p>{{product.Description4}}</p></li>
+                </ul>
+              </div>
+              <div class="subcontent2">
+                <ul>
+                  <li>
+                    <p>
+                      {{product.Description5}}
+                    </p>
+                  </li>
+                  <li>
+                    <p>{{product.Description6}}
+                  </li>
+                  <li><p>{{product.Description7}}</p></li>
+                  <li><p>{{product.Description8}}</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+

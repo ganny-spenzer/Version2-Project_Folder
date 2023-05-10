@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+}
+
+.menu_bar{
+  background-color: powderblue;
+  height: 80px;
+  width: 100%;
+   display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  padding: 0 5%;
+  animation: menu_bar 2s ease-out;
+
+}
+@keyframes menu_bar{
+  0%{
+      transform: translateY(-100%);
+  }
+}
+
+.menu_bar ul{
+  list-style: none;
+  display: flex;
+}
+.menu_bar ul li{
+  padding: 10px 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu_bar ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  transition: all 0.3s;
+ padding: 7px 10px;
+ background-color: black;
+ border-radius: 2rem;
+
+}
+
+
+
+
+.menu_bar ul li :hover{
+  color:white;
+}
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    border-radius: 1rem;
+}
+
+.menu_bar ul li:hover .dropdown_menu  {
+  display: block;
+
+  position: absolute;
+  top: 3.6rem;
+  width:14%;
+  transform: translateX(-25%);
+  background-color:powderblue;
+
+}
+
+.dropdown_menu ul {
+
+display: block;
+}
+
+.dropdown_menu ul li{
+  padding: 10px 30px;
+}
+.dropdown_menu ul li a{
+  background-color:powderblue;
+
+
+}
+.dropdown_menu ul li a:hover{
+  color: black;
+}
+.menu_bar ul li a:hover{
+  color: black;
+  background-color: white;
+}
+#imge{
+  margin: -2.8rem;
+}
+.active{
+  background-color: white;
+
+}
+.popupHead{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+}
+.imgDiv{
+  margin-left: 1rem;
+}
+.crossDiv i{
+ margin-right: 1rem;
+ color: black;
+}
+.cityHeading{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.cityHeading h2{
+  margin-top: 2rem;
+  text-align: center;
+}
+.OverallGrid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.CityGrid{
+  margin-top: 2rem;
+}
+.CityGrid a{
+  text-decoration: none;
+  color: black;
+
+}
+.buildLogo,.buildCity{
+  text-align: center;
+
+}
+.buildCity{
+  margin-top: 0.5rem;
+}
+.buildCity p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.active{
+  /* color: black; */
+  background-color: white;
+}

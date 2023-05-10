@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.2",
+    "ng-image-slider": "^7.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+<app-header></app-header>
+
+   <br><br> <br>
+<div class="log-main-grid">
+  <div class="log-main-grid-0">
+      <img src="../../assets/photos/login cartoon 1.jpg" height="450rem" id="logcrtn2" width="470rem" alt="img">
+  </div>
+  <div class="main-log">
+      <form  method="post" name="form" (ngSubmit)="loginfill(usernames.value,passwords.value)" >
+          <h2 id="log-namehd">Login</h2>
+          <div class="login-username">
+              <input type="email" id="loginname" name="loginname" #usernames placeholder="Email">
+              <p id="emlerror"></p>
+          </div>
+          <div class="login-password">
+              <input type="password" id="loginpassword" name="loginpassword" #passwords placeholder="Password">
+              <p id="passworderror" *ngIf="hide"> Invalid Username or Password</p>
+          </div>
+          <div class="forget-pass">
+              <a href="#" id="forgetanchor">Forgot Password?</a> <br>
+              <a routerLink="/registration"  id="forgetanchor">New User?</a>
+          </div>
+          <div class="logbtn">
+              <button type="submit" id="btnlog"> <span id="btnlogspn"> Login</span></button>
+          </div>
+      </form>
+  </div>
+  <div class="log-grid-2">
+      <img src="../../assets/photos/login cartoon 2.jpg" width="435rem" id="logcrtn1" height="300rem" alt="img">
+  </div>
+</div>
+<app-footer></app-footer>
+

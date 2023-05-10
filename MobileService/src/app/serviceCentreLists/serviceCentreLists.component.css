@@ -1,0 +1,99 @@
+.divide{
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 4rem;
+
+}
+.divImg{
+  width: 500px;
+  height: 335px;
+  margin-top: 2rem;
+  border: 0.1px solid black;
+  box-shadow: 5px 9px 27px -4px rgba(0,0,0,0.58);
+}
+.divImg img
+{
+ width: 100%;
+ height: 100%;
+ z-index: -25;
+}
+.divContent
+{
+
+  background: linear-gradient(90deg, rgba(20,52,133,1) 33%, rgba(123,192,255,1) 100%);  opacity: 0.8;
+  width: 500px;
+  height: 336px;
+  clip-path: polygon(0% 0%, 0% 200%,100% 0%);
+  transform: translateY(-21.2rem);
+  z-index: 1000;
+}
+.divContent h3{
+  padding-left: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+#divContentRating{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  /* background-color: rgb(250, 230, 12); */
+  background-color: rgb(39, 230, 39);
+  width: 65px;
+  clip-path: polygon(0% 0%, 0% 250%,100% 00%);
+  color: white;
+  margin-top: 5px;
+  padding: 3px 0 3px 0 ;
+
+}
+.divContent span{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: rgb(255, 255, 255); ;
+  font-size: 1rem;
+}
+
+.divContent p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 0.7rem;
+   line-height: 23px;
+   color: white;
+}
+#divContentRating  i{
+  padding-left: 3px;
+}
+#content{
+  margin-left: 4px;
+  margin-top: 1.2rem;
+  color: white;
+  font-size: 0.7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#phone
+{
+  margin-top: 0.3rem;
+  margin-left: 4px;
+}
+button{
+  width: 100px;
+  height: 25px;
+  background-color: black;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+button:hover{
+  background-color: white;
+transform: scaleY(1.3);
+transform: translateX(00.3rem);
+
+}
+button a:hover{
+  color: black;
+}
+button a{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+

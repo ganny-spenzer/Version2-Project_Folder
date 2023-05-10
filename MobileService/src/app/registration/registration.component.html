@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+<div class="menu_bar">
+  <img src="../../assets/photos/Just.png" alt="img"  width="16%" height="70%" id="imge">
+
+  <ul>
+      <li> <a [routerLink]="'/home'"><i class="fa-solid fa-mobile-screen-button"></i> Home</a> </li>
+
+      <li> <a [routerLink]="'/about'">About</a> </li>
+      <li> <a href="#">More<i class="fas fa-caret-down"></i></a>
+          <div class="dropdown_menu">
+              <ul>
+                  <li><a [routerLink]="'/newoffers'">New Offers</a></li>
+                  <li><a [routerLink]="'/upcoming'">Upcoming </a></li>
+                  <li><a [routerLink]="'/contact'"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                  <li><a href="#"> Dashboard</a></li>
+              </ul>
+          </div>
+      </li>
+      <li> <a [routerLink]="'/login'">Login
+          </a>
+  </ul>
+  <!-- </nav> -->
+</div>
+<div class="reg-main-grid">
+  <div class="main-grid-0">
+      <img src="../../assets/photos/register cartoon 2.jpg" height="450rem" width="470rem" alt="img">
+  </div>
+  <div class="main-reg">
+      <form [formGroup]="formCompletes" (submit)="submitForm()">
+          <h2 id="reg-namehd">Registration Form</h2>
+          <div class="reg-fn">
+              <input type="text" id="regfname" formControlName="namevalue" placeholder="First Name" name="namevalue" >
+            </div>
+              <div *ngIf="formCompletes.controls['namevalue'].dirty" class="alert" >
+                <p  *ngIf="formCompletes.controls['namevalue'].errors?.['required']">User name should not be Empty</p>
+                <p *ngIf="formCompletes.controls['namevalue'].errors?.['pattern']">Enter proper User Name</p>
+              </div>
+
+
+          <div class="reg-dob">
+              <input type="date" id="regdob"  placeholder="mm/dd/yyyy" required>
+          </div>
+          <div class="reg-phone">
+              <input type="tel" maxlength="10" id="regphn" required  formControlName="mobilevalue" name="regphn"
+                  placeholder="Phone Number">
+                </div>
+                  <div *ngIf="formCompletes.controls['mobilevalue'].dirty" class="alert">
+                    <p *ngIf="formCompletes.controls['mobilevalue'].errors?.['required']">Mobile Number should not be Empty</p>
+                    <p *ngIf="formCompletes.controls['mobilevalue'].errors?.['pattern']">Enter a valid Mobile Number</p>
+                  </div>
+
+          <div class="reg-email">
+              <input type="email" id="regeml" name="regeml"  formControlName="emailvalue" placeholder="Enter Email">
+            </div>
+              <div *ngIf="formCompletes.controls['emailvalue'].dirty" class="alert">
+                <p *ngIf="formCompletes.controls['emailvalue'].errors?.['required']">Email should not be Empty</p>
+                <p *ngIf="formCompletes.controls['emailvalue'].errors?.['pattern']">Enter a valid Email</p>
+              </div>
+
+          <div class="regpas">
+              <input type="text" id="regpas"  name="regpas"  formControlName="passwordvalue" placeholder="Create Password"
+              >
+                  <div *ngIf="formCompletes.controls['passwordvalue'].dirty" class="alert">
+                    <p *ngIf="formCompletes.controls['passwordvalue'].errors?.['required']" >Password should not be Empty</p>
+                    <p *ngIf="formCompletes.controls['passwordvalue'].errors?.['pattern']" >Password Must Contain 1Caps(A)-Num(1)-Symbol(@)</p>
+                  </div>
+
+
+          </div>
+          <div class="regconpas">
+              <input type="text" id="regconpas" required  formControlName="confirmpasswordvalue" name="regconpas"
+                  placeholder="Confirm Password" >
+                  <div *ngIf="formCompletes.controls['confirmpasswordvalue'].dirty" class="alert">
+                    <p  *ngIf="formCompletes.controls['confirmpasswordvalue'].errors?.['required']">Confirm PW should not be Empty</p>
+                    <p  *ngIf="formCompletes.controls['confirmpasswordvalue'].errors?.['confirmPasswordValidate']">Confirm Password Doesn't Match Password</p>
+                  </div>
+                  </div>
+          <div class="regbtn">
+              <button id="btnreg" type="submit"[disabled]="!formComplete.valid"><span id="btnregspn"> Register</span></button>
+          </div>
+      </form>
+  </div>
+  <div class="reg-grid-2">
+      <img src="../../assets/photos/Registeration cartoon.png" width="410rem" id="regcrtn1" height="520rem" alt="img">
+  </div>
+</div>

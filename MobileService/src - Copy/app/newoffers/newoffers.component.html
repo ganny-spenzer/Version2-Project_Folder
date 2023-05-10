@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+<div class="menu_bar">
+  <img src="../../assets/photos/Just.png" alt="img" width="16%" height="70%" id="imge">
+
+  <ul>
+      <li> <a [routerLink]="'/home'"><i class="fa-solid fa-mobile-screen-button"></i> Home</a> </li>
+
+
+      <li> <a [routerLink]="'/about'" id="highlight">About</a> </li>
+      <li> <a href="#">More<i class="fas fa-caret-down"></i></a>
+          <div class="dropdown_menu">
+              <ul>
+                  <li><a [routerLink]="'/newoffers'">New Offers</a></li>
+                  <li><a [routerLink]="'/upcoming'">Upcoming </a></li>
+                  <li><a [routerLink]="'/contact'"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                  <li><a href="#"> Dashboard</a></li>
+              </ul>
+          </div>
+      </li>
+      <li> <a [routerLink]="'/login'">Login </a>
+  </ul>
+
+</div>
+<div class="headlineAmz">
+  <p id="paraAmz2">
+    We got you popular deals/offers of mobile phones on various online store
+  </p>
+  <p id="paraAmz3">| Amazon | Flipkart | Croma |</p>
+</div>
+<div class="amazonDealshd">
+  <h1>
+    Amazon Deals
+    <span id="amazonDealshdLine"
+      >--------------------------------------------------------------------------------------------------------------------------------------------------</span
+    >
+  </h1>
+</div>
+
+<div class="top1Banner">
+  <div class="innertopDiv">
+    <a href=""
+      ><img src="../../assets/photos/Oneplus Main Banner.jpg" alt=""
+    /></a>
+  </div>
+</div>
+<div class="topoftheweek">
+  <img src="../../assets/photos/Top Deals of the Week BAnner.jpg" alt="" />
+</div>
+<div class="phoneDisplay">
+  <div class="phoneDisplayItem" *ngFor="let deal of allDeals">
+    <a href="{{deal.amazonlink}}"><img src="{{ deal.Image1 }}" alt="" /></a>
+  </div>
+</div>
+<div class="flipkartDealshd">
+  <h1>
+    Flipkart Deals
+    <span id="flipkartDealshdLine"
+      >--------------------------------------------------------------------------------------------------------------------------------------------------</span
+    >
+  </h1>
+</div>
+<div class="flipkartimgDiv">
+  <a href=""> <img src="../../assets/photos/Flipkart Banner.png" alt="" /></a>
+</div>
+<div class="flipkartDealDiv">
+  <a href="">
+    <img src="../../assets/photos/Deal of the week flipkart.png" alt=""
+  /></a>
+</div>
+<div class="flipkartItemDisplay">
+  <div class="flipkartItemMain" *ngFor="let fdeals of allflipkartDeals">
+    <a href= "{{fdeals.Contentlink}}">
+      <div class="flipkartItemSub1">
+        <img src="{{ fdeals.flipkartImg }}" alt="" />
+        <div class="flipkartItemSub2">
+          <p>{{fdeals.Contentp}}</p>
+          <h2>{{fdeals.Contenthd }}  <span id="innerflipkartOffer"> {{fdeals.Contentspan}}</span></h2>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="cromaDealshd">
+  <h1>
+    Croma Deals
+    <span id="cromaDealshdLine"
+      >-----------------------------------------------------------------------------------------------------------------------------------------------------</span>
+  </h1>
+</div>
+<div class="cromaDealDiv">
+  <a href="">
+    <img src="../../assets/photos/Croma BAnner.png" alt=""
+  /></a>
+</div>
+<div class="cromaMainDiv">
+<div class="cromadivDeals" *ngFor="let cdeal of allcromaDeals">
+ <a href="{{cdeal.cromalink}}"> <img src="{{cdeal.cromaImg}}" alt=""></a>
+</div>
+</div>

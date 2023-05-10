@@ -1,0 +1,103 @@
+
+<div class="asus-hd1">
+  <h1>{{finalProduct.Model}}</h1>
+</div>
+<br><br><br>
+<div class="productSilder">
+<ng-image-slider [images]="imgCollection" #nav [imageSize]="{width:'10%',height:'70%'}"></ng-image-slider>
+</div>
+<br><br>
+<div class="star-status">
+  <div class="rate-status1">
+      <h2 id="rt-statushd">{{finalProduct.rating}}</h2>
+  </div>
+  <div class="content-status2">
+      <p id="ct-status"> SPECS SCORE</p>
+      <div class="sub1-content-status">
+          <p>Group rank <span id="group-rank">{{finalProduct.groupRank1}}</span>{{finalProduct.groupRank2}} </p>
+      </div>
+      <div class="sub2-content-status">
+          <p>Overall rank <span id="group-rank">{{finalProduct.overallRank1}}</span>{{finalProduct.overallRank2}}</p>
+      </div>
+  </div>
+<!-- <img src="../../assets/photos/asus rog 1slide.webp"> -->
+</div>
+<br><br>
+<div class="spec-hd">Full Specs</div> <br>
+<div class="spec-content">
+  <div class="general-content">
+      <h4 id="gn-hd">General</h4>
+      <p>{{finalProduct.General1}}</p>
+      <p>{{finalProduct.General2}}</p>
+      <p>{{finalProduct.General3}}</p>
+      <p>{{finalProduct.General4}}</p>
+  </div>
+  <br>
+  <div class="general-content">
+      <h4 id="gn-hd">Display</h4>
+      <p>{{finalProduct.Display1}}</p>
+      <p>{{finalProduct.Display2}}</p>
+      <p>{{finalProduct.Display3}}</p>
+      <p>{{finalProduct.Display4}}</p>
+      <p>{{finalProduct.Display5}}</p>
+      <p>{{finalProduct.Display6}}</p>
+      <p>{{finalProduct.Display7}}</p>
+
+
+    </div>
+  <br>
+  <div class="general-content">
+      <h4 id="gn-hd">Camera</h4>
+      <p>{{finalProduct.Camera1}}</p>
+      <p>{{finalProduct.Camera2}}</p>
+      <p>{{finalProduct.Camera3}}</p>
+      <p>{{finalProduct.Camera4}}</p>
+  </div>
+  <br>
+  <div class="general-content">
+      <h4 id="gn-hd">Technical</h4>
+      <p>{{finalProduct.Technical1}}</p>
+      <p>{{finalProduct.Technical2}}</p>
+      <p>{{finalProduct.Technical3}}</p>
+      <p>{{finalProduct.Technical4}}</p>
+      <p>{{finalProduct.Technical5}}</p>
+      <p>{{finalProduct.Technical6}}</p>
+  </div>
+  <br>
+  <div class="general-content">
+      <h4 id="gn-hd">Connectivity</h4>
+      <p>{{finalProduct.Connectivity1}}</p>
+      <p>{{finalProduct.Connectivity2}}</p>
+      <p>{{finalProduct.Connectivity3}}</p>
+      <p>{{finalProduct.Connectivity4}}</p>
+  </div>
+  <br>
+  <div class="general-content">
+      <h4 id="gn-hd">Battery</h4>
+      <p>{{finalProduct.Battery1}}</p>
+      <p>{{finalProduct.Battery2}}</p>
+      <p>{{finalProduct.Battery3}}</p>
+      <p>{{finalProduct.Battery4}}</p>
+  </div>
+  <br>
+  <div class="general-content">
+      <h4 id="gn-hd">Extra</h4>
+     <p>{{finalProduct.Extra1}}</p>
+     <p>{{finalProduct.Extra2}}</p>
+     <p>{{finalProduct.Extra3}}</p>
+  </div>
+
+</div>
+<br>
+<div class="asus-description">
+  <h4 id="desc-hd">{{finalProduct.bottomHD1}}</h4>
+  <p id="desc-p">{{finalProduct.bottomP1}}
+  </p>
+</div>
+<br>
+<div class="asus-description">
+  <h4 id="desc-hd">{{finalProduct.bottomHD2}}</h4>
+  <p id="desc-p">{{finalProduct.bottomP2}}</p>
+</div>
+
+

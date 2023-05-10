@@ -1,0 +1,43 @@
+.footer
+{display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+background-color: powderblue;
+}
+.ftr-div1 ul li,.ftr-div2 ul li,.ftr-div3 ul li,.ftr-div4 ul li {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 0.3rem;
+}
+.ftr-div1 ul li a,.ftr-div2 ul  li a,.ftr-div3 ul  li a,.ftr-div4 ul  li a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: left;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ftr-div1 p,.ftr-div2 p,.ftr-div3 p,.ftr-div4 p{
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-left: 3rem;
+}
+ #social-media-footer{
+  font-style: normal;
+  color:rgb(0, 0, 0);
+  font-size: 0.9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .ftr-div1 ul, .ftr-div2 ul, .ftr-div3 ul, .ftr-div4 ul{
+    padding-top: 0.3rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    }
+    .ftr-div1 ul li, .ftr-div2 ul li, .ftr-div3 ul li, .ftr-div4 ul li{
+      padding-top: 5px;
+    }
+#logoFix{
+  padding-left: 5px;
+}

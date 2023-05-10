@@ -1,0 +1,27 @@
+<app-header></app-header>
+<div class="divide">
+  <div class="divImg" *ngFor="let cApple of chennaiAppleList">
+    <img
+      src="{{cApple.img}}"
+      alt=""
+    />
+
+  <div class="divContent">
+    <h3>{{ cApple.shopName }}</h3>
+    <p id="divContentRating">
+      {{ cApple.rating }}<i class="fa-solid fa-star"></i>
+    </p>
+    <div id="content">
+      <span>Address:</span>{{ cApple.address1 }}
+      <p>{{ cApple.address2 }}</p>
+      <p>{{ cApple.address3 }}</p>
+      <p>{{ cApple.address4 }}</p>
+    </div>
+
+    <p id="phone"><span>Phone Number:</span>{{ cApple.phoneno }}</p>
+    <button><a routerLink="/scentreDescrip">Explore</a></button>
+  </div>
+</div>
+</div><br><br>
+
+<app-footer></app-footer>

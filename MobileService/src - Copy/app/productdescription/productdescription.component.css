@@ -1,0 +1,213 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.menu_bar{
+background-color: powderblue;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  padding: 0 5%;
+  animation: menu_bar 2s ease-out;
+
+}
+@keyframes menu_bar{
+  0%{
+      transform: translateY(-100%);
+  }
+}
+
+.menu_bar ul{
+  list-style: none;
+  display: flex;
+}
+.menu_bar ul li{
+  padding: 10px 20px;
+}
+.menu_bar ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  transition: all 0.3s;
+ padding: 7px 10px;
+ background-color: black;
+ border-radius: 2rem;
+
+
+
+}
+
+.dropdown_menu{
+ z-index: 5;
+ border-radius: 2rem;
+}
+.menu_bar ul li :hover{
+  color:white;
+ /* background:black  */
+}
+.dropdown_menu{
+    display: none;
+    position: absolute;
+}
+
+.menu_bar ul li:hover .dropdown_menu  {
+  display: block;
+  /* display: none; */
+  position: absolute;
+  top: 3.6rem;
+  width:14%;
+  transform: translateX(-25%);
+background-color:powderblue;
+
+}
+
+.dropdown_menu ul {
+
+display: block;
+}
+
+.dropdown_menu ul li{
+  padding: 10px 30px;
+}
+.dropdown_menu ul li a{
+ background-color: rgb(90, 57, 118);
+}
+.dropdown_menu ul li a:hover{
+  color: black;
+}
+.menu_bar ul li a:hover{
+  color: black;
+  background-color: white;
+}
+#imge{
+  margin: -3.8rem;
+}
+.asus-hd1 h1{
+  font-family: Trebuchet MS;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.star-status{
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+.content-status2{
+  margin-left: 1rem;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  /* margin-left: 1rem; */
+}
+
+#rt-statushd{
+  background-color: rgb(22, 170, 22);
+  color: white;
+  width: 6.4rem;
+  height: 5.4rem;
+  padding-top: 1px;
+  padding-left: 5px;
+  border-radius: 0.2rem;
+  font-size: 5rem;
+ float: right;
+ transform: translateX(-rem);
+}
+
+#ct-status{
+  font-size: 1.5rem;
+  font-family: Trebuchet MS;
+  font-weight: 200;
+}
+.sub2-content-status{
+transform: translateY(-1.1rem);
+}
+.sub2-content-status p,.sub1-content-status p{
+  font-family: Trebuchet MS;
+
+}
+#group-rank{
+  font-weight: 700;
+  font-size: 1rem;
+  color: rgb(239, 56, 56);
+}
+.spec-content{
+  /* background-color: rgb(250, 233, 233);
+  width: 20rem; */
+  margin-left: 1rem;
+}
+#gn-hd{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: green;
+  border-radius: 1.1rem 1.1rem 0 0 ;
+  padding-left: 1rem;
+
+
+
+
+  font-size:1.4rem;
+  font-weight: 400;
+  color: azure;
+
+
+
+}
+.general-content p{
+  margin-top: 0.3rem;
+
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  line-height: 1.5rem;
+
+}
+.general-content{
+padding-bottom: 12px;
+
+
+  border-radius: 1.3rem;
+  border: 2px solid green;
+}
+.spec-hd{
+margin-left: 1rem;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:1.9rem;
+font-weight: 100;
+}
+
+#desc-hd{
+
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+font-size:1.9rem;
+font-weight: 800;
+}
+#desc-p{
+padding-top: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+line-height: 1.5rem;
+}
+
+
+.asus-description{
+margin-left: 1rem;
+}
+.dropdown_menu{
+z-index: 1;
+border-radius: 1rem;
+}
+.asus-description
+{
+  display: none;
+}
+.productSilder{
+ margin: 25%;
+}
