@@ -446,8 +446,8 @@
   ],
   "SelectBrand": [
     {
-      "BrandImg": "../../assets/photos/Apple.jpg",
-      "link":""
+      "BrandImg": "../../assets/photos/Apple.jpg"
+
     },
     {
       "BrandImg": "../../assets/photos/Samsung-logo.jpg"
@@ -552,7 +552,9 @@
       "address2":"Velachery Road, Selaiyur Tambaram",
       "address3":"Chennai - Tamil Nadu - 600073",
       "address4":"",
-      "phoneno":"08695966966"
+      "phoneno":"08695966966",
+      "shoplocation":"Chennai",
+      "brandname":"apple"
 
     },
     {
@@ -564,6 +566,8 @@
       "address3":"BEHIND EGA THEATRE, KILPAUK",
       "address4":" Chennai, Tamil Nadu - 600010",
       "phoneno":"04442804334"
+      ,"shoplocation":"Chennai",
+      "brandname":"apple"
 
     },
     {
@@ -574,8 +578,57 @@
       "address2":"TTK ROAD, ALWARPET,",
       "address3":"Chennai, Tamil Nadu - 600018",
       "address4":"",
-      "phoneno":"180030000330"
+      "phoneno":"180030000330",
+      "shoplocation":"Chennai",
+      "brandname":"apple"
 
+    },
+    {
+      "shopName":"DRB Enterprises",
+      "img":"../../assets/photos/PosterSamsungg.jpg",
+      "rating":"5.0",
+      "address1":" No. 21,",
+      "address2":"Part-A, 2nd Floor,Sundarambal Nagar,",
+      "address3":"Chitalapakkan,  GST Road,",
+      "address4":" Chrompet, Chennai - 600064",
+      "phoneno":"9840393222",
+      "shoplocation":"Chennai",
+      "brandname":"samsung"
+    },
+    {
+      "shopName":"Alpha Communication",
+      "img":"../../assets/photos/PosterSamsungg.jpg",
+      "rating":"4.5",
+      "address1":" 1st Floor, Diamond Plaza,",
+      "address2":" No. P -995, 12th Main Road,",
+      "address3":"2nd Avenue, Annanagar,",
+      "address4":" Chennai - 600040",
+      "phoneno":"9840393222",
+      "shoplocation":"Chennai",
+      "brandname":"samsung"
+    },
+    {
+      "shopName":"IT World-Samsung Service Center",
+      "img":"../../assets/photos/PosterSamsungg.jpg",
+      "rating":"4.5",
+      "address1":" Shop No G5,",
+      "address2":"Velachery Road, 142 Phoenix Market City Mall,",
+      "address3":"Lower Ground Floor,",
+      "address4":" Velachery,Chennai - 600042",
+      "phoneno":"9629130777",
+      "shoplocation":"Chennai",
+      "brandname":"samsung"
+    },{
+      "shopName":"TVS Electronics Limited - Samsung Service Center",
+      "img":"../../assets/photos/PosterSamsungg.jpg",
+      "rating":"4.5",
+      "address1":" Shop No. 77/2,",
+      "address2":"Old No. 26/2, 1st Floor,",
+      "address3":"Habibullah Road, T. Nagar, ",
+      "address4":" Chennai - 600017",
+      "phoneno":"9629130777",
+      "shoplocation":"Chennai",
+      "brandname":"samsung"
     }
   ]
 }
