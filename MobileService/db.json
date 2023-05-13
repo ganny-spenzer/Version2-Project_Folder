@@ -618,7 +618,8 @@
       "phoneno":"9629130777",
       "shoplocation":"Chennai",
       "brandname":"samsung"
-    },{
+    },
+    {
       "shopName":"TVS Electronics Limited - Samsung Service Center",
       "img":"../../assets/photos/PosterSamsungg.jpg",
       "rating":"4.5",
@@ -626,8 +627,92 @@
       "address2":"Old No. 26/2, 1st Floor,",
       "address3":"Habibullah Road, T. Nagar, ",
       "address4":" Chennai - 600017",
-      "phoneno":"9629130777",
+      "phoneno":"7020184691",
       "shoplocation":"Chennai",
+      "brandname":"samsung"
+    },
+    {
+      "shopName":"CROMA",
+      "img":"../../assets/photos/PosterApple.jpg",
+      "rating":"4.2",
+      "address1":" PLOT # A/4,",
+      "address2":"BHARATHI STREET, ",
+      "address3":"Salem- 636004",
+      "address4":"",
+      "phoneno":"07207666000",
+      "shoplocation":"Salem",
+      "brandname":"apple"
+    },
+    {
+      "shopName":"IPLANET",
+      "img":"../../assets/photos/PosterApple.jpg",
+      "rating":"4.1",
+      "address1":"  4/2,",
+      "address2":"NEW BUS STAND ROAD,",
+      "address3":"Salem- 636009",
+      "address4":"",
+      "phoneno":"04274040181",
+      "shoplocation":"Salem",
+      "brandname":"apple"
+    },
+    {
+      "shopName":"POORVIKA",
+      "img":"../../assets/photos/PosterApple.jpg",
+      "rating":"4.1",
+      "address1":" NEAR BUS STOP,",
+      "address2":" OPP. ANANDA ADYAR BHAWAN",
+      "address3":"Salem- 636016",
+      "address4":"",
+      "phoneno":"",
+      "shoplocation":"Salem",
+      "brandname":"apple"
+    },
+    {
+      "shopName":"RELIANCE DIGITAL",
+      "img":"../../assets/photos/PosterApple.jpg",
+      "rating":"4.0",
+      "address1":"NO 229/1,",
+      "address2":"JUNCTION ROAD, BLOCK NO.5,",
+      "address3":" MEYYANUR, Salem- 636004",
+      "address4":"",
+      "phoneno":"18008891044",
+      "shoplocation":"Salem",
+      "brandname":"apple"
+    },
+    {
+      "shopName":"Smart Communication",
+      "img":"../../assets/photos/PosterSamsungg.jpg",
+      "rating":"4.4",
+      "address1":" 252/30, 31,",
+      "address2":" Meyyanur Bye Pass Road",
+      "address3":"Opp. ARRS Multiplex,  ",
+      "address4":" N M Arcade, Salem- 636004",
+      "phoneno":"9943383838",
+      "shoplocation":"Salem",
+      "brandname":"samsung"
+    },
+    {
+      "shopName":"Sai Communication",
+      "img":"../../assets/photos/PosterSamsungg.jpg",
+      "rating":"4.3",
+      "address1":" 21 Nrs Building,",
+      "address2":"Near Kpn Parcel office,",
+      "address3":"Sathiyanarana Street, Swarnapuri , ",
+      "address4":"Salem- 636004",
+      "phoneno":"9943383838",
+      "shoplocation":"Salem",
+      "brandname":"samsung"
+    },
+    {
+      "shopName":"Smart Technologies",
+      "img":"../../assets/photos/PosterSamsungg.jpg",
+      "rating":"4.0",
+      "address1":" No 20,",
+      "address2":"Kalappakaran Street, Balaji Nagar,",
+      "address3":"Fair Lands Salem- 636004 ",
+      "address4":"",
+      "phoneno":"9943383838",
+      "shoplocation":"Salem",
       "brandname":"samsung"
     }
   ]
