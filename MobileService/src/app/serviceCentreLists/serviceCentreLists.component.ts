@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductDataService } from '../productData.service';
+import { SharedServiceService } from '../SharedService.service';
 
 @Component({
   selector: 'app-serviceCentreLists',
@@ -7,13 +8,26 @@ import { ProductDataService } from '../productData.service';
   styleUrls: ['./serviceCentreLists.component.css']
 })
 export class ServiceCentreListsComponent implements OnInit {
-  chennaiAppleList:any;
+  selectedCity: string | undefined;
+  selectedBrand: string | undefined;
 
-  constructor(private http:ProductDataService ) {
-    this.http.getChennaiApple().subscribe(data=>this. chennaiAppleList=data)
+  productList:any;
+
+
+  constructor(private http:ProductDataService,private sharedServices:SharedServiceService ) {
   }
 
   ngOnInit() {
+    this.selectedCity = this.sharedServices.selectedCity;
+    this.selectedBrand = this.sharedServices.selectedBrand;
+
+    // console.log(this.selectedCity);
+    // console.log(this.selectedBrand);
+this.http.getShopDetails().subscribe((data)=>{
+this.productList =data.filter((x:any)=>x.shoplocation===this.selectedCity && x.brandname===this.selectedBrand);
+
+});
   }
+
 
 }

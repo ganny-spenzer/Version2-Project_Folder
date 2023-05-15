@@ -96,10 +96,7 @@ display: block;
 }
 
 .brandRow1{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  margin-right: 4rem;
-  margin-left: 8rem;
+  margin-left: 6rem;
 }
 .brandDiv{
 
@@ -116,4 +113,8 @@ margin-top: 4rem;
 }
 .brandDiv:hover{
   transform: scale(1.1);
+}
+.overallDisplay
+{
+  display: flex;
 }

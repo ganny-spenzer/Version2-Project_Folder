@@ -1,24 +1,24 @@
 <app-header></app-header>
 <div class="divide">
-  <div class="divImg" *ngFor="let cApple of chennaiAppleList">
+  <div class="divImg" *ngFor="let productDisplay of productList">
     <img
-      src="{{cApple.img}}"
+      src="{{productDisplay.img}}"
       alt=""
     />
 
   <div class="divContent">
-    <h3>{{ cApple.shopName }}</h3>
+    <h3>{{ productDisplay.shopName }}</h3>
     <p id="divContentRating">
-      {{ cApple.rating }}<i class="fa-solid fa-star"></i>
+      {{ productDisplay.rating }}<i class="fa-solid fa-star"></i>
     </p>
     <div id="content">
-      <span>Address:</span>{{ cApple.address1 }}
-      <p>{{ cApple.address2 }}</p>
-      <p>{{ cApple.address3 }}</p>
-      <p>{{ cApple.address4 }}</p>
+      <span>Address:</span>{{ productDisplay.address1 }}
+      <p>{{ productDisplay.address2 }}</p>
+      <p>{{ productDisplay.address3 }}</p>
+      <p>{{ productDisplay.address4 }}</p>
     </div>
 
-    <p id="phone"><span>Phone Number:</span>{{ cApple.phoneno }}</p>
+    <p id="phone"><span>Phone Number:</span>{{ productDisplay.phoneno }}</p>
     <button><a routerLink="/scentreDescrip">Explore</a></button>
   </div>
 </div>

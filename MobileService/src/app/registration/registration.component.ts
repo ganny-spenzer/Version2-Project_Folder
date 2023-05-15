@@ -33,11 +33,15 @@ export class RegistrationComponent  {
   {validator:confirmPasswordValidate('passwordvalue','confirmpasswordvalue'),}
   );
   submitForm() {
-    this.dataservice.addUser(this.formCompletes.value).subscribe((data) => {
+   if(this.formCompletes.valid){ this.dataservice.addUser(this.formCompletes.value).subscribe((data) => {
       alert('Form Submitted');
       this.route.navigate(['/login']);
     });
   }
+  else{
+    alert("Please Fill the Correct Details");
+  }}
+
 
   }
 

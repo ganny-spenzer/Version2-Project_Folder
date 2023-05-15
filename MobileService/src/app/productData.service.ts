@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -29,7 +30,7 @@ getregisterDetails(){
   return this.http.get(' http://localhost:3000/register');
 
 }
-getChennaiApple(){
-  return this.http.get(' http://localhost:3000/appleChennai')
+getShopDetails(): Observable<any>{
+  return this.http.get(' http://localhost:3000/shopDetails')
 }
 }

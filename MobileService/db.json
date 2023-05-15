@@ -447,7 +447,6 @@
   "SelectBrand": [
     {
       "BrandImg": "../../assets/photos/Apple.jpg"
-
     },
     {
       "BrandImg": "../../assets/photos/Samsung-logo.jpg"
@@ -522,198 +521,192 @@
       "confirmpasswordvalue": "vipere",
       "id": 3
     }
-
-  ]
-  ,
-  "appleChennai":[
+  ],
+  "shopDetails": [
     {
-      "shopName":"PLANETCARE",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"5",
-      "address1":"NO. 51,",
-      "address2":"SIR THIYAGARAYA ROAD, PONDY BAZAAR,",
-      "addres3":"PARTHASARATHI PURAM,",
-      "address4":" Chennai, Tamil Nadu - 600017",
-      "phoneno":"07397798688",
-      "shoplocation":"Chennai",
-      "brandname":"apple",
-      "exploredetails":[
+      "shopName": "PLANETCARE",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "5",
+      "address1": "NO. 51,",
+      "address2": "SIR THIYAGARAYA ROAD, PONDY BAZAAR,",
+      "addres3": "PARTHASARATHI PURAM,",
+      "address4": " Chennai, Tamil Nadu - 600017",
+      "phoneno": "07397798688",
+      "shoplocation": "Chennai",
+      "brandname": "apple",
+      "exploredetails": [
         {
-          "image1":""
+          "image1": ""
         }
       ]
-
     },
     {
-      "shopName":"PLANETCARE(Chennai)",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"4.9",
-      "address1":"763,",
-      "address2":"Velachery Road, Selaiyur Tambaram",
-      "address3":"Chennai - Tamil Nadu - 600073",
-      "address4":"",
-      "phoneno":"08695966966",
-      "shoplocation":"Chennai",
-      "brandname":"apple"
-
+      "shopName": "PLANETCARE(Chennai)",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "4.9",
+      "address1": "763,",
+      "address2": "Velachery Road, Selaiyur Tambaram",
+      "address3": "Chennai - Tamil Nadu - 600073",
+      "address4": "",
+      "phoneno": "08695966966",
+      "shoplocation": "Chennai",
+      "brandname": "apple"
     },
     {
-      "shopName":"F1 INFO SOLUTIONS & SERVICES",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"4.8",
-      "address1":"18/1,",
-      "address2":"VASU STREET,",
-      "address3":"BEHIND EGA THEATRE, KILPAUK",
-      "address4":" Chennai, Tamil Nadu - 600010",
-      "phoneno":"04442804334"
-      ,"shoplocation":"Chennai",
-      "brandname":"apple"
-
+      "shopName": "F1 INFO SOLUTIONS & SERVICES",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "4.8",
+      "address1": "18/1,",
+      "address2": "VASU STREET,",
+      "address3": "BEHIND EGA THEATRE, KILPAUK",
+      "address4": " Chennai, Tamil Nadu - 600010",
+      "phoneno": "04442804334",
+      "shoplocation": "Chennai",
+      "brandname": "apple"
     },
     {
-      "shopName":"AMPLE TECHNOLOGIES PVT LTD",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"4.8",
-      "address1":"47,",
-      "address2":"TTK ROAD, ALWARPET,",
-      "address3":"Chennai, Tamil Nadu - 600018",
-      "address4":"",
-      "phoneno":"180030000330",
-      "shoplocation":"Chennai",
-      "brandname":"apple"
-
+      "shopName": "AMPLE TECHNOLOGIES PVT LTD",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "4.8",
+      "address1": "47,",
+      "address2": "TTK ROAD, ALWARPET,",
+      "address3": "Chennai, Tamil Nadu - 600018",
+      "address4": "",
+      "phoneno": "180030000330",
+      "shoplocation": "Chennai",
+      "brandname": "apple"
     },
     {
-      "shopName":"DRB Enterprises",
-      "img":"../../assets/photos/PosterSamsungg.jpg",
-      "rating":"5.0",
-      "address1":" No. 21,",
-      "address2":"Part-A, 2nd Floor,Sundarambal Nagar,",
-      "address3":"Chitalapakkan,  GST Road,",
-      "address4":" Chrompet, Chennai - 600064",
-      "phoneno":"9840393222",
-      "shoplocation":"Chennai",
-      "brandname":"samsung"
+      "shopName": "DRB Enterprises",
+      "img": "../../assets/photos/PosterSamsungg.jpg",
+      "rating": "5.0",
+      "address1": " No. 21,",
+      "address2": "Part-A, 2nd Floor,Sundarambal Nagar,",
+      "address3": "Chitalapakkan,  GST Road,",
+      "address4": " Chrompet, Chennai - 600064",
+      "phoneno": "9840393222",
+      "shoplocation": "Chennai",
+      "brandname": "samsung"
     },
     {
-      "shopName":"Alpha Communication",
-      "img":"../../assets/photos/PosterSamsungg.jpg",
-      "rating":"4.5",
-      "address1":" 1st Floor, Diamond Plaza,",
-      "address2":" No. P -995, 12th Main Road,",
-      "address3":"2nd Avenue, Annanagar,",
-      "address4":" Chennai - 600040",
-      "phoneno":"9840393222",
-      "shoplocation":"Chennai",
-      "brandname":"samsung"
+      "shopName": "Alpha Communication",
+      "img": "../../assets/photos/PosterSamsungg.jpg",
+      "rating": "4.5",
+      "address1": " 1st Floor, Diamond Plaza,",
+      "address2": " No. P -995, 12th Main Road,",
+      "address3": "2nd Avenue, Annanagar,",
+      "address4": " Chennai - 600040",
+      "phoneno": "9840393222",
+      "shoplocation": "Chennai",
+      "brandname": "samsung"
     },
     {
-      "shopName":"IT World-Samsung Service Center",
-      "img":"../../assets/photos/PosterSamsungg.jpg",
-      "rating":"4.5",
-      "address1":" Shop No G5,",
-      "address2":"Velachery Road, 142 Phoenix Market City Mall,",
-      "address3":"Lower Ground Floor,",
-      "address4":" Velachery,Chennai - 600042",
-      "phoneno":"9629130777",
-      "shoplocation":"Chennai",
-      "brandname":"samsung"
+      "shopName": "IT World-Samsung Service Center",
+      "img": "../../assets/photos/PosterSamsungg.jpg",
+      "rating": "4.5",
+      "address1": " Shop No G5,",
+      "address2": "Velachery Road, 142 Phoenix Market City Mall,",
+      "address3": "Lower Ground Floor,",
+      "address4": " Velachery,Chennai - 600042",
+      "phoneno": "9629130777",
+      "shoplocation": "Chennai",
+      "brandname": "samsung"
     },
     {
-      "shopName":"TVS Electronics Limited - Samsung Service Center",
-      "img":"../../assets/photos/PosterSamsungg.jpg",
-      "rating":"4.5",
-      "address1":" Shop No. 77/2,",
-      "address2":"Old No. 26/2, 1st Floor,",
-      "address3":"Habibullah Road, T. Nagar, ",
-      "address4":" Chennai - 600017",
-      "phoneno":"7020184691",
-      "shoplocation":"Chennai",
-      "brandname":"samsung"
+      "shopName": "TVS Electronics Limited - Samsung Service Center",
+      "img": "../../assets/photos/PosterSamsungg.jpg",
+      "rating": "4.5",
+      "address1": " Shop No. 77/2,",
+      "address2": "Old No. 26/2, 1st Floor,",
+      "address3": "Habibullah Road, T. Nagar, ",
+      "address4": " Chennai - 600017",
+      "phoneno": "7020184691",
+      "shoplocation": "Chennai",
+      "brandname": "samsung"
     },
     {
-      "shopName":"CROMA",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"4.2",
-      "address1":" PLOT # A/4,",
-      "address2":"BHARATHI STREET, ",
-      "address3":"Salem- 636004",
-      "address4":"",
-      "phoneno":"07207666000",
-      "shoplocation":"Salem",
-      "brandname":"apple"
+      "shopName": "CROMA",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "4.2",
+      "address1": " PLOT # A/4,",
+      "address2": "BHARATHI STREET, ",
+      "address3": "Salem- 636004",
+      "address4": "",
+      "phoneno": "07207666000",
+      "shoplocation": "Salem",
+      "brandname": "apple"
     },
     {
-      "shopName":"IPLANET",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"4.1",
-      "address1":"  4/2,",
-      "address2":"NEW BUS STAND ROAD,",
-      "address3":"Salem- 636009",
-      "address4":"",
-      "phoneno":"04274040181",
-      "shoplocation":"Salem",
-      "brandname":"apple"
+      "shopName": "IPLANET",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "4.1",
+      "address1": "  4/2,",
+      "address2": "NEW BUS STAND ROAD,",
+      "address3": "Salem- 636009",
+      "address4": "",
+      "phoneno": "04274040181",
+      "shoplocation": "Salem",
+      "brandname": "apple"
     },
     {
-      "shopName":"POORVIKA",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"4.1",
-      "address1":" NEAR BUS STOP,",
-      "address2":" OPP. ANANDA ADYAR BHAWAN",
-      "address3":"Salem- 636016",
-      "address4":"",
-      "phoneno":"",
-      "shoplocation":"Salem",
-      "brandname":"apple"
+      "shopName": "POORVIKA",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "4.1",
+      "address1": " NEAR BUS STOP,",
+      "address2": " OPP. ANANDA ADYAR BHAWAN",
+      "address3": "Salem- 636016",
+      "address4": "",
+      "phoneno": "",
+      "shoplocation": "Salem",
+      "brandname": "apple"
     },
     {
-      "shopName":"RELIANCE DIGITAL",
-      "img":"../../assets/photos/PosterApple.jpg",
-      "rating":"4.0",
-      "address1":"NO 229/1,",
-      "address2":"JUNCTION ROAD, BLOCK NO.5,",
-      "address3":" MEYYANUR, Salem- 636004",
-      "address4":"",
-      "phoneno":"18008891044",
-      "shoplocation":"Salem",
-      "brandname":"apple"
+      "shopName": "RELIANCE DIGITAL",
+      "img": "../../assets/photos/PosterApple.jpg",
+      "rating": "4.0",
+      "address1": "NO 229/1,",
+      "address2": "JUNCTION ROAD, BLOCK NO.5,",
+      "address3": " MEYYANUR, Salem- 636004",
+      "address4": "",
+      "phoneno": "18008891044",
+      "shoplocation": "Salem",
+      "brandname": "apple"
     },
     {
-      "shopName":"Smart Communication",
-      "img":"../../assets/photos/PosterSamsungg.jpg",
-      "rating":"4.4",
-      "address1":" 252/30, 31,",
-      "address2":" Meyyanur Bye Pass Road",
-      "address3":"Opp. ARRS Multiplex,  ",
-      "address4":" N M Arcade, Salem- 636004",
-      "phoneno":"9943383838",
-      "shoplocation":"Salem",
-      "brandname":"samsung"
+      "shopName": "Smart Communication",
+      "img": "../../assets/photos/PosterSamsungg.jpg",
+      "rating": "4.4",
+      "address1": " 252/30, 31,",
+      "address2": " Meyyanur Bye Pass Road",
+      "address3": "Opp. ARRS Multiplex,  ",
+      "address4": " N M Arcade, Salem- 636004",
+      "phoneno": "9943383838",
+      "shoplocation": "Salem",
+      "brandname": "samsung"
     },
     {
-      "shopName":"Sai Communication",
-      "img":"../../assets/photos/PosterSamsungg.jpg",
-      "rating":"4.3",
-      "address1":" 21 Nrs Building,",
-      "address2":"Near Kpn Parcel office,",
-      "address3":"Sathiyanarana Street, Swarnapuri , ",
-      "address4":"Salem- 636004",
-      "phoneno":"9943383838",
-      "shoplocation":"Salem",
-      "brandname":"samsung"
+      "shopName": "Sai Communication",
+      "img": "../../assets/photos/PosterSamsungg.jpg",
+      "rating": "4.3",
+      "address1": " 21 Nrs Building,",
+      "address2": "Near Kpn Parcel office,",
+      "address3": "Sathiyanarana Street, Swarnapuri , ",
+      "address4": "Salem- 636004",
+      "phoneno": "9943383838",
+      "shoplocation": "Salem",
+      "brandname": "samsung"
     },
     {
-      "shopName":"Smart Technologies",
-      "img":"../../assets/photos/PosterSamsungg.jpg",
-      "rating":"4.0",
-      "address1":" No 20,",
-      "address2":"Kalappakaran Street, Balaji Nagar,",
-      "address3":"Fair Lands Salem- 636004 ",
-      "address4":"",
-      "phoneno":"9943383838",
-      "shoplocation":"Salem",
-      "brandname":"samsung"
+      "shopName": "Smart Technologies",
+      "img": "../../assets/photos/PosterSamsungg.jpg",
+      "rating": "4.0",
+      "address1": " No 20,",
+      "address2": "Kalappakaran Street, Balaji Nagar,",
+      "address3": "Fair Lands Salem- 636004 ",
+      "address4": "",
+      "phoneno": "9943383838",
+      "shoplocation": "Salem",
+      "brandname": "samsung"
     }
   ]
 }
