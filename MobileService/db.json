@@ -520,13 +520,21 @@
       "passwordvalue": "vipere",
       "confirmpasswordvalue": "vipere",
       "id": 3
+    },
+    {
+      "namevalue": "satheesh",
+      "emailvalue": "sat@gmail.com",
+      "mobilevalue": "7653455678",
+      "passwordvalue": "Sat@123",
+      "confirmpasswordvalue": "Sat@123",
+      "id": 4
     }
   ],
   "shopDetails": [
     {
       "shopName": "PLANETCARE",
       "img": "../../assets/photos/PosterApple.jpg",
-      "rating": "5",
+      "rating": "5.0",
       "address1": "NO. 51,",
       "address2": "SIR THIYAGARAYA ROAD, PONDY BAZAAR,",
       "addres3": "PARTHASARATHI PURAM,",
@@ -534,11 +542,26 @@
       "phoneno": "07397798688",
       "shoplocation": "Chennai",
       "brandname": "apple",
-      "exploredetails": [
-        {
-          "image1": ""
-        }
-      ]
+      "image1": "https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053788.jpeg?downsize=*:420&output-quality=80",
+      "image2": "https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053801.jpeg?downsize=*:420&output-quality=80",
+      "image3": "https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053796.jpeg?downsize=*:420&output-quality=80",
+      "shoprating": "5.0",
+      "price1": "1499",
+      "price2": "1799",
+      "price3": "499",
+      "price4": "4499",
+      "price5": "7199",
+      "maplink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5959266789094!2d80.23509251475784!3d13.045655690824793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e9b971c41a7%3A0x31e6a1f204e8f0ed!2sPLANETCARE!5e0!3m2!1sen!2sin!4v1621072100416!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+      "about1": "PlanetCare is a trusted authorized mobile service center that provides customers with a range of high-quality products and services. One of the main offerings by the company is genuine parts and accessories for all major mobile phone brands. Customers can rely on PlanetCare to provide authentic products that are specifically designed for their devices, ensuring that they function optimally and reliably",
+      "about2": "In addition to parts and accessories, PlanetCare provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
+      "about3": "Overall, PlanetCare is a reliable and trustworthy authorized mobile service center that offers customers a wide range of products and services. Whether customers need parts and accessories, repairs, insurance, or a refurbished device, they can count on PlanetCare to provide high-quality solutions that meet their needs.",
+      "q1": "1. Whether mobile accessories are available here?",
+      "q1ans": "Yes.Branded mobile accessories are available here.",
+      "q2": "2. What are the various mode of payment accepted here?",
+      "q2ans": "You can make payment Via Cash,Visa Card,Debit Cards and Credit Cards",
+      "q3": "?",
+      "q3ans": "",
+      "id": "1"
     },
     {
       "shopName": "PLANETCARE(Chennai)",
@@ -550,7 +573,13 @@
       "address4": "",
       "phoneno": "08695966966",
       "shoplocation": "Chennai",
-      "brandname": "apple"
+      "brandname": "apple",
+      "image1": "",
+      "image2": "",
+      "image3": "",
+      "shoprating": "5.0",
+      "about1": "PlanetCare(Chennai) stands as a reputable and authorized destination for mobile servicing, offering an extensive array of top-notch products and services. A distinguishing feature of this establishment is its commitment to providing genuine parts and accessories for leading mobile phone brands. With PlanetCare(Chennai), customers can place their trust in the assurance of authenticity, ensuring that their devices operate flawlessly and consistently. This esteemed service center prides itself on delivering tailored solutions that guarantee optimal performance and unwavering reliability.",
+      "id": "2"
     },
     {
       "shopName": "F1 INFO SOLUTIONS & SERVICES",

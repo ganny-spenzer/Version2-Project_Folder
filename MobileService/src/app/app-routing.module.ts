@@ -64,7 +64,7 @@ const routes: Routes = [
     component:ServiceCentreListsComponent
   },
   {
-    path:'scentreDescrip',
+    path:'scentreDescrip/:id',
     component:ServiceCentreDescriptionComponent
   }
 ]

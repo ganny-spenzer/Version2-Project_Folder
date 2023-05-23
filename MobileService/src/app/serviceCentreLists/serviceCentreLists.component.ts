@@ -27,6 +27,7 @@ this.http.getShopDetails().subscribe((data)=>{
 this.productList =data.filter((x:any)=>x.shoplocation===this.selectedCity && x.brandname===this.selectedBrand);
 
 });
+
   }
 
 

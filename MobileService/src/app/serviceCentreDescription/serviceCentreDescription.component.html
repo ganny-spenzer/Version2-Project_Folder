@@ -2,33 +2,33 @@
 <div class="divPhotos">
   <div class="photo1">
     <img
-      src="https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053788.jpeg?downsize=*:420&output-quality=80"
+      src="{{finalshopName.image1}}"
       alt=""
     />
   </div>
   <div class="photo2">
     <img
-      src="https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053801.jpeg?downsize=*:420&output-quality=80"
+      src="{{finalshopName.image2}}"
       alt=""
     />
   </div>
   <div class="photo3">
     <img
-      src="https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053796.jpeg?downsize=*:420&output-quality=80"
+      src="{{finalshopName.image3}}"
       alt=""
     />
   </div>
 </div>
 <div class="shopinfo">
   <h2>
-    PLANETCARE <i class="fa-solid fa-circle-check" style="color: #6d9ad5"></i>
+    {{finalshopName.shopName}} <i class="fa-solid fa-circle-check" style="color: #6d9ad5"></i>
   </h2>
-  <p id="rtng">5.0</p>
+  <p id="rtng">{{finalshopName.rating}}</p>
   <h3>Address:</h3>
-  <p id="addressInfo">763,</p>
-  <p id="addressInfo">Velachery Road,</p>
-  <p id="addressInfo">Selaiyur Tambaram</p>
-  <p id="addressInfo">Chennai - Tamil Nadu - 600073</p>
+  <p id="addressInfo">{{finalshopName.address1}}</p>
+  <p id="addressInfo">{{finalshopName.address2}}</p>
+  <p id="addressInfo">{{finalshopName.address3}}</p>
+  <p id="addressInfo">{{finalshopName.address4}}</p>
   <h3>Phone Number: <span id="phonenumber">08695966966</span></h3>
 </div>
 <div class="secondMainDiv">
@@ -64,11 +64,11 @@
       <div class="quickinfoMainDiv">
         <div class="quickinfoMainDiv1">
           <h2>Prices</h2>
-          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Adapters and Cables:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">1499</i></p>
-          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Headphones:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">1799</i></p>
-          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Tempered Glasses:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">499</i></p>
-          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Software Updates:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">4499</i></p>
-          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Screen Replacements:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">7199</i></p>
+          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Adapters and Cables:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">{{finalshopName.price1}}</i></p>
+          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Headphones:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">{{finalshopName.price2}}</i></p>
+          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Tempered Glasses:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">{{finalshopName.price3}}</i></p>
+          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Software Updates:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">{{finalshopName.price4}}</i></p>
+          <p><span id="priceId"><i class="fa-solid fa-play" style="color: #6d9ad5;"></i> Screen Replacements:-</span>Starts from <i class="fa-solid fa-indian-rupee-sign">{{finalshopName.price5}}</i></p>
 
 
         </div>
@@ -181,19 +181,19 @@
 </div>
 <div class="productandServiceDiv">
   <h2>About Us</h2>
-  <p>PlanetCare is a trusted authorized mobile service center that provides customers with a range of high-quality products and services. One of the main offerings by the company is genuine parts and accessories for all major mobile phone brands. Customers can rely on PlanetCare to provide authentic products that are specifically designed for their devices, ensuring that they function optimally and reliably.</p>
-<p>In addition to parts and accessories, PlanetCare provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.</p>
-<p>Overall, PlanetCare is a reliable and trustworthy authorized mobile service center that offers customers a wide range of products and services. Whether customers need parts and accessories, repairs, insurance, or a refurbished device, they can count on PlanetCare to provide high-quality solutions that meet their needs.</p>
+  <p>{{finalshopName.about1}}</p>
+<p>{{finalshopName.about2}}</p>
+<p>{{finalshopName.about3}}</p>
 </div>
 <div class="frequentQnDiv">
   <h2>Frequently Asked Questions</h2>
   <div class="qnswithAnswers">
-    <h3>1. Whether mobile accessories are available here?</h3>
-    <p>Yes.Branded mobile accessories are available here.</p>
+    <h3>{{finalshopName.q1}}</h3>
+    <p>{{finalshopName.q1ans}}</p>
   </div>
   <div class="qnswithAnswers">
-    <h3>2. What are the various mode of payment accepted here?</h3>
-    <p>You can make payment Via Cash,Visa Card,Debit Cards and Credit Cards</p>
+    <h3>{{finalshopName.q2}}</h3>
+    <p>{{finalshopName.q2ans}}</p>
   </div>
   <div class="qnswithAnswers">
     <h3>3. What are its hours of operation</h3>
