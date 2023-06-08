@@ -24,13 +24,14 @@ export class LoginComponent implements OnInit {
   loginfill(usernames: any, passwords: any) {
     for (let users of this.loginItem) {
       if (usernames == users.emailvalue && passwords == users.passwordvalue) {
-        alert('Login Succesfull');
+        alert('Login Succesful');
         this.sessionvariable=sessionStorage.setItem('usersuccess','true');
 this.guardservice.userlogin=true;
         this.route.navigate(['home']);
       }
       // else{
       //   alert("Invalid Login Details");
+
       // }
     }
     // else(){
