@@ -1,3 +1,4 @@
+
 *
 {
 
@@ -6,9 +7,170 @@ padding: 0;
 font-family: sans-serif;
 box-sizing: border-box;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+.menu_bar{
+   background-color:powderblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 0 5%;
+    animation: menu_bar 2s ease-out;
+
+}
+@keyframes menu_bar{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 20px;
+}
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    transition: all 0.3s;
+   padding: 7px 10px;
+   background-color: black;
+   border-radius: 2rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
 
 }
 
+
+.menu_bar ul li :hover{
+    color:white;
+   /* background:black  */
+}
+.dropdown_menu{
+      display: none;
+      position: absolute;
+}
+
+.menu_bar ul li:hover .dropdown_menu  {
+    display: block;
+    /* display: none; */
+    position: absolute;
+    top: 3.6rem;
+    width:14%;
+    transform: translateX(-25%);
+    background-color:powderblue;
+
+}
+
+.dropdown_menu ul {
+
+display: block;
+}
+.dropdown_menu{
+   z-index: 1;
+   border-radius: 1rem;
+}
+
+.dropdown_menu ul li{
+    padding: 10px 30px;
+}
+ .dropdown_menu ul li a{
+   background-color:powderblue;
+
+ }
+ .dropdown_menu ul li a:hover{
+    color: black;
+ }
+ .menu_bar ul li a:hover{
+    color: black;
+    background-color: white;
+ }
+ #imge{
+    margin: -3.8rem;
+ }
+
+ .about-head h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+ }
+
+ .about-head p{
+    /* padding: 5px 0; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+ }
+ #abt-h1{
+    padding-top: 1rem;
+ }
+ .about-head {
+
+    height: 8.5rem;
+    /* background-color: powderblue; */
+ }
+ .about-strong h2{
+  margin-top: 2rem;
+   font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    /* border-bottom: 1.5px solid green; */
+ }
+ .abt-cont-grid{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2.7rem;
+
+ }
+ .abt-cont-grid1,.abt-cont-grid2,.abt-cont-grid3{
+
+    margin-top: 3rem;
+    text-align: center;
+    height: 10rem;
+    width: 12rem;
+    background-color: powderblue;
+    border-radius: 2rem;
+    box-shadow: 7px 8px 5px -5px rgba(64,42,122,0.75);
+ }
+ .abt-cont-grid1 p,.abt-cont-grid2 p,.abt-cont-grid3 p{
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 500;
+    line-height: 30px;
+
+
+ }
+ .count{
+    color: red;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+#highlight
+
+{
+   color: black;
+   background-color: white;
+}
 
  #iph{
     width: 30%;

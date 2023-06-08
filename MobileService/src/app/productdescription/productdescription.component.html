@@ -1,11 +1,19 @@
-
+<app-header></app-header>
 <div class="asus-hd1">
   <h1>{{finalProduct.Model}}</h1>
 </div>
-<br><br><br>
-<div class="productSilder">
-<ng-image-slider [images]="imgCollection" #nav [imageSize]="{width:'10%',height:'70%'}"></ng-image-slider>
+<div class="imageMainSlider">
+  <div class="imgSlider">
+    <img src="{{finalProduct.gridimage1}}" alt="">
+  </div>
+  <div class="imgSlider">
+    <img src="{{finalProduct.gridimage2}}" alt="">
+  </div>
+  <div class="imgSlider">
+    <img src="{{finalProduct.gridimage3}}" width="400%" alt="">
+  </div>
 </div>
+
 <br><br>
 <div class="star-status">
   <div class="rate-status1">
@@ -20,7 +28,7 @@
           <p>Overall rank <span id="group-rank">{{finalProduct.overallRank1}}</span>{{finalProduct.overallRank2}}</p>
       </div>
   </div>
-<!-- <img src="../../assets/photos/asus rog 1slide.webp"> -->
+ <!-- <img src="../../assets/photos/moto s30 sample s1.webp"> -->
 </div>
 <br><br>
 <div class="spec-hd">Full Specs</div> <br>
@@ -101,3 +109,5 @@
 </div>
 
 
+
+<!-- <img src="../../assets/photos/mm.jpg" alt=""> -->

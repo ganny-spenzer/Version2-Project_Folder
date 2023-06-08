@@ -12,6 +12,7 @@ import { SelectBrandComponent } from './SelectBrand/SelectBrand.component';
 import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/serviceCentreDescription.component';
 import { ServiceCentreListsComponent } from './serviceCentreLists/serviceCentreLists.component';
 import { UpcomingComponent } from './upcoming/upcoming.component';
+import { GaneshGuard } from './ganesh.guard';
 
 const routes: Routes = [
 
@@ -57,7 +58,9 @@ const routes: Routes = [
   },
   {
     path:'popup',
-    component:PopupDisplayComponent
+    component:PopupDisplayComponent,
+    canActivate:[GaneshGuard]
+
   },
     {
     path:'scentreList',

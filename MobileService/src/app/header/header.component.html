@@ -7,7 +7,8 @@
   <ul>
       <li> <a routerLink="/home" routerLinkActive="active" id="highlight"><i class="fa-solid fa-mobile-screen-button"></i> Home</a> </li>
       <li> <a [routerLink]="'/about'"  routerLinkActive="active" >About</a> </li>
-      <li><a [routerLink]="'/popup'"  routerLinkActive="active" >Service</a></li>
+      <li> <a [routerLink]="'/popup'"  routerLinkActive="active" >Service</a> </li>
+
 
       <li> <a href="#">More<i class="fas fa-caret-down"></i></a>
 
@@ -17,11 +18,11 @@
                   <li><a [routerLink]="'/newoffers'">New Offers</a></li>
                   <li><a [routerLink]="'/upcoming'">Upcoming </a></li>
                   <li><a  [routerLink]="'/contact'"><i class="fa-solid fa-phone"></i> Contact</a></li>
-                  <li><a href="#"> Dashboard</a></li>
               </ul>
           </div>
       </li>
-      <li> <a [routerLink]="'/login'">Login </a>
+      <li> <a (click)="guardservice.login()" *ngIf="!userloginsuccess" [routerLink]="'/login'">Login </a></li>
+      <li> <a (click)="logout()" *ngIf="userloginsuccess" [routerLink]="'/login'" id="logoutt">Logout </a></li>
   </ul>
 
 </div>

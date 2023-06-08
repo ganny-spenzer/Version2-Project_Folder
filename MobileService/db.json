@@ -3,6 +3,9 @@
     {
       "Model": "Motorola Moto S30 Pro",
       "Image": "../../assets/photos/mob-2.webp",
+      "gridimage1": "../../assets/photos/moto s30 pro 1.webp",
+      "gridimage2": "../../assets/photos/moto s30 pro 3.webp",
+      "gridimage3": "../../assets/photos/mm.jpg",
       "price": "Rs.25,950",
       "Description1": "Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi ",
       "Description2": "Snapdragon 888+, Octa Core, 2.9GHz Processor",
@@ -50,6 +53,9 @@
     {
       "Model": "Xiaomi 12S Ultra",
       "Image": "../../assets/photos/mob-3.webp",
+      "gridimage1": "../../assets/photos/xiaomi 12s ultra 1.webp",
+      "gridimage2": "../../assets/photos/xiaomi 12s ultra 2.webp",
+      "gridimage3": "../../assets/photos/xiaomi 12s ultra 3.webp",
       "price": "Rs.70,690 ",
       "Description1": "Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC, <br> IR Blaster ",
       "Description2": "Snapdragon 8+ Gen1, Octa Core, 3.2GHz Processor",
@@ -99,6 +105,9 @@
       "Model": "Asus ROG Phone 6 Pro 5G",
       "Image": "../../assets/photos/mob-4.webp",
       "price": "Rs.88,999 ",
+      "gridimage1": "../../assets/photos/../../assets/photos/asus rog 1slide.webp",
+      "gridimage2": "../../assets/photos/asus rog 2 slide.webp",
+      "gridimage3": "../../assets/photos/asus rog 4 slide.webp",
       "Description1": "Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC",
       "Description2": "Snapdragon 8+Gen1,Octa Core, 3.2 GHz Processor",
       "Description3": "18 GB RAM, 512 GB inbuilt",
@@ -149,6 +158,9 @@
     {
       "Model": "iQOO Neo 6 SE 5G",
       "Image": "../../assets/photos/mob-5.webp",
+      "gridimage1": "../../assets/photos/iqoo neo se 1.webp",
+      "gridimage2": "../../assets/photos/iqoo neo se 2.webp",
+      "gridimage3": "../../assets/photos/iqoo neo se 3.webp",
       "price": "Rs.23,090",
       "Description1": "Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi",
       "Description2": "Snapdragon 870, Octa Core, 3.2 GHz Processor",
@@ -196,6 +208,9 @@
     {
       "Model": "Nokia G400 5G",
       "Image": "../../assets/photos/mob-6.webp",
+      "gridimage1": "../../assets/photos/nokia g400 1.webp",
+      "gridimage2": "../../assets/photos/nokia g400 2.webp",
+      "gridimage3": "../../assets/photos/nokia g400 3.webp",
       "price": "Rs.19,990 ",
       "Description1": "Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC",
       "Description2": "Snapdragon 480+, Octa Core, 2.2 GHz Processor",
@@ -243,6 +258,9 @@
     {
       "Model": "Xiaomi Redmi K50 Ultra",
       "Image": "../../assets/photos/mob-7.webp",
+      "gridimage1": "../../assets/photos/Xiaomi k50 Ultra 1.webp",
+      "gridimage2": "../../assets/photos/xiaomi k50 ultra 2.webp",
+      "gridimage3": "../../assets/photos/xiaomi k50 ultra 3.webp",
       "price": "Rs. 35,390 ",
       "Description1": "Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi,NFC,IR Blaster",
       "Description2": "Snapdragon 8+Gen1,Octa Core, 3.2 GHz Processor",
@@ -496,30 +514,12 @@
   ],
   "register": [
     {
-      "USERNAME": "dinesh",
-      "DATEOBIRTH": "2023-03-15",
-      "MOBILENUMBER": "9876543212",
-      "EMAIL": "mdk@gmail.com",
-      "PASSWORD": "dinesh",
-      "CPASSWORD": "dinesh",
-      "id": 1
-    },
-    {
-      "USERNAME": "ganesh",
-      "DATEOBIRTH": "2023-02-28",
-      "MOBILENUMBER": "6483838383",
-      "EMAIL": "ganesh12@gmail.com",
-      "PASSWORD": "Ganesh",
-      "CPASSWORD": "Ganesh",
-      "id": 2
-    },
-    {
       "namevalue": "viper",
       "emailvalue": "viper@gmail.com",
       "mobilevalue": "8610209535",
       "passwordvalue": "vipere",
       "confirmpasswordvalue": "vipere",
-      "id": 3
+      "id": 1
     },
     {
       "namevalue": "satheesh",
@@ -527,7 +527,15 @@
       "mobilevalue": "7653455678",
       "passwordvalue": "Sat@123",
       "confirmpasswordvalue": "Sat@123",
-      "id": 4
+      "id": 2
+    },
+    {
+      "namevalue": "Ganesh",
+      "emailvalue": "gannyspenzer007@gmail.com",
+      "mobilevalue": "6382523219",
+      "passwordvalue": "Ganesh@1",
+      "confirmpasswordvalue": "Ganesh@1",
+      "id": 3
     }
   ],
   "shopDetails": [
@@ -559,8 +567,12 @@
       "q1ans": "Yes.Branded mobile accessories are available here.",
       "q2": "2. What are the various mode of payment accepted here?",
       "q2ans": "You can make payment Via Cash,Visa Card,Debit Cards and Credit Cards",
-      "q3": "?",
-      "q3ans": "",
+      "q3": "3. What are its hours of operation?",
+      "q3ans": "Monday-Saturday:9:00 AM to 6:00 PM",
+      "q4": "4. Does warranty covers water Damage?",
+      "q4ans": "No.Warranty does not cover water damage.Please read Terms and condtions of the for warranty coverages.",
+      "q5": "5. What is the warranty period for Accessories?Does warranty period varies from accessories to accessories?",
+      "q5ans": "The warranty period for accessories are 6 Months from the date of purchase.No.warranty period is same for all accessories.",
       "id": "1"
     },
     {
@@ -574,10 +586,15 @@
       "phoneno": "08695966966",
       "shoplocation": "Chennai",
       "brandname": "apple",
-      "image1": "",
-      "image2": "",
-      "image3": "",
+      "image1": "https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053801.jpeg?downsize=*:420&output-quality=80",
+      "image2": "https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053796.jpeg?downsize=*:420&output-quality=80",
+      "image3": "https://assets.gadgets360cdn.com/servicecenter/image/PLANETCARE_1611053788.jpeg?downsize=*:420&output-quality=80",
       "shoprating": "5.0",
+      "price1": "1299",
+      "price2": "1899",
+      "price3": "699",
+      "price4": "4199",
+      "price5": "7599",
       "about1": "PlanetCare(Chennai) stands as a reputable and authorized destination for mobile servicing, offering an extensive array of top-notch products and services. A distinguishing feature of this establishment is its commitment to providing genuine parts and accessories for leading mobile phone brands. With PlanetCare(Chennai), customers can place their trust in the assurance of authenticity, ensuring that their devices operate flawlessly and consistently. This esteemed service center prides itself on delivering tailored solutions that guarantee optimal performance and unwavering reliability.",
       "id": "2"
     },

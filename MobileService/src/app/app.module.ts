@@ -8,7 +8,6 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { UpcomingComponent } from './upcoming/upcoming.component';
-import { ProductComponent } from './product/product.component';
 import { ProductdescriptionComponent } from './productdescription/productdescription.component';
 import { AboutComponent } from './About/About.component';
 import { ContactComponent } from './Contact/Contact.component';
@@ -20,6 +19,7 @@ import { PopupDisplayComponent } from './PopupDisplay/PopupDisplay.component';
 import { ServiceCentreListsComponent } from './serviceCentreLists/serviceCentreLists.component';
 import { HeaderComponent } from './header/header.component';
 import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/serviceCentreDescription.component';
+import { GaneshGuard } from './ganesh.guard';
 
 
 @NgModule({
@@ -30,7 +30,6 @@ import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/se
       LoginComponent,
       RegistrationComponent,
       UpcomingComponent,
-      ProductComponent,
       ProductdescriptionComponent,
       AboutComponent,
       ContactComponent,
@@ -51,7 +50,7 @@ import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/se
 
 
   ],
-  providers: [],
+  providers: [GaneshGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

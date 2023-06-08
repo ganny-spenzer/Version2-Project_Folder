@@ -208,6 +208,31 @@ border-radius: 1rem;
 {
   display: none;
 }
-.productSilder{
- margin: 25%;
+.imageMainSlider{
+  display: grid;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.imgSlider{
+
+  height: 22rem;
+  width: 17rem;
+  padding: 0 0.5rem;
+
+
+  margin: 2rem 3rem;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.imgSlider img:hover{
+transform: scaleY(1.1)
+}
+.imgSlider img{
+margin-top: 7%;
+  height: 90%;
+  width: 100%;
+  object-fit: contain;
 }

@@ -1,4 +1,80 @@
 
+*
+
+
+ .about-head h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+ }
+
+ .about-head p{
+    /* padding: 5px 0; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+ }
+ #abt-h1{
+    padding-top: 1rem;
+ }
+ .about-head {
+
+    height: 8.5rem;
+    /* background-color: powderblue; */
+ }
+ .about-strong h2{
+  margin-top: 2rem;
+   font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    /* border-bottom: 1.5px solid green; */
+ }
+ .abt-cont-grid{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2.7rem;
+
+ }
+ .abt-cont-grid1,.abt-cont-grid2,.abt-cont-grid3{
+
+    margin-top: 3rem;
+    text-align: center;
+    height: 10rem;
+    width: 12rem;
+    background-color: powderblue;
+    border-radius: 2rem;
+    box-shadow: 7px 8px 5px -5px rgba(64,42,122,0.75);
+ }
+ .abt-cont-grid1 p,.abt-cont-grid2 p,.abt-cont-grid3 p{
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 500;
+    line-height: 30px;
+
+
+ }
+ .count{
+    color: red;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+#highlight
+
+{
+   color: black;
+   background-color: white;
+}
 .headline{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
