@@ -10,7 +10,6 @@ import { ServiceforguardService } from '../serviceforguard.service';
   styleUrls: ['./login.component.css'],
 })
 export class LoginComponent implements OnInit {
-  sessionvariable: any;
   loginItem: any;
 
   ngOnInit() {
@@ -25,7 +24,7 @@ export class LoginComponent implements OnInit {
     for (let users of this.loginItem) {
       if (usernames == users.emailvalue && passwords == users.passwordvalue) {
         alert('Login Succesful');
-        this.sessionvariable=sessionStorage.setItem('usersuccess','true');
+        sessionStorage.setItem('usersuccess','true');
 this.guardservice.userlogin=true;
         this.route.navigate(['home']);
       }

@@ -8,9 +8,6 @@ export class ServiceforguardService {
 
 userlogin=false;
   isUserLogIn=Boolean(sessionStorage.getItem("usersuccess"));
-  userloggedin(email: any, password: any) {
-
-  }
   constructor() { }
   isLoggedIn=false;
   login() {
