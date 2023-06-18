@@ -226,7 +226,8 @@ input::placeholder {
   visibility: hidden;
 } */
 .alert p{
+  margin-top:2px;
   color: red;
   /* position: absolute; */
-  font-size: 10px;
+  font-size: 12px;
 }
