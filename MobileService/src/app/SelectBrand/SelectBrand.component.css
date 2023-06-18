@@ -96,7 +96,7 @@ display: block;
 }
 
 .brandRow1{
-  margin-left: 6rem;
+  margin-left: 11rem;
 }
 .brandDiv{
 
@@ -116,5 +116,5 @@ margin-top: 4rem;
 }
 .overallDisplay
 {
-  display: flex;
+ display: flex;
 }

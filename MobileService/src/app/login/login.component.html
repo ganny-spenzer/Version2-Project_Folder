@@ -27,16 +27,26 @@
   <div class="log-main-grid-0">
       <img src="../../assets/photos/login cartoon 1.jpg" height="450rem" id="logcrtn2" width="470rem" alt="img">
   </div>
+
   <div class="main-log">
-      <form   name="form" (ngSubmit)="loginfill(usernames.value,passwords.value)" >
+      <form  [formGroup]="loginForm"  (ngSubmit)="loginfill(usernames.value,passwords.value)" >
+        <p id="passworderror" *ngIf="hide"  > Invalid Username or Password <i class="fa-solid fa-1x fa-xmark" (click)="crossMark()"></i></p>
+
           <h2 id="log-namehd">Login</h2>
           <div class="login-username">
-              <input type="email" id="loginname" name="loginname" #usernames placeholder="Email">
-              <p id="emlerror"></p>
+              <input type="email" id="loginname" formControlName="emailvalue"  #usernames placeholder="Email">
+
+          <div *ngIf="loginForm.controls['emailvalue'].dirty" class="alert" >
+            <p  *ngIf="loginForm.controls['emailvalue'].errors?.['required']">Email should not be empty</p>
           </div>
+          </div>
+
           <div class="login-password">
-              <input type="password" id="loginpassword" name="loginpassword" #passwords placeholder="Password">
-              <p id="passworderror" *ngIf="hide"> Invalid Username or Password</p>
+              <input type="password" id="loginpassword" formControlName="passwordvalue" #passwords placeholder="Password">
+              <div *ngIf="loginForm.controls['passwordvalue'].dirty" class="alert" >
+                <p  *ngIf="loginForm.controls['passwordvalue'].errors?.['required']">Password should not be empty</p>
+              </div>
+
           </div>
           <div class="forget-pass">
               <a href="#" id="forgetanchor">Forgot Password?</a> <br>

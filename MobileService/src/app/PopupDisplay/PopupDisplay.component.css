@@ -21,7 +21,7 @@
 }
 .OverallGrid{
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(3,1fr);
 }
 .CityGrid{
   margin-top: 2rem;
@@ -40,5 +40,5 @@
 }
 .buildCity p{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
+
 }

@@ -10,19 +10,19 @@ import { StoreService } from '../store.service';
   styleUrls: ['./registration.component.css']
 })
 export class RegistrationComponent  {
-  formComplete=new FormGroup({
-    namevalue:new FormControl(),
-    mobilevalue:new FormControl(),
-    emailvalue:new FormControl(),
-    passwordvalue:new FormControl(),
-    confirmpasswordvalue:new FormControl(),
+  // formComplete=new FormGroup({
+  //   namevalue:new FormControl(),
+  //   mobilevalue:new FormControl(),
+  //   emailvalue:new FormControl(),
+  //   passwordvalue:new FormControl(),
+  //   confirmpasswordvalue:new FormControl()
 
-  });
+  // });
 
 
 
   constructor(private fb:FormBuilder,private dataservice:StoreService,private route:Router) { }
-  formCompletes=this.fb.group({
+  formComplete=this.fb.group({
     namevalue:[,[Validators.required,Validators.pattern("^[a-zA-Z]+$")]],
     emailvalue:[,[Validators.required,Validators.pattern("^[0-9a-zA-Z]+[._]{0,1}[0-9a-zA-Z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}$")]],
     mobilevalue:[,[Validators.required,Validators.pattern("^[6-9]{1}[0-9]{9}$")]],
@@ -33,7 +33,7 @@ export class RegistrationComponent  {
   {validator:confirmPasswordValidate('passwordvalue','confirmpasswordvalue'),}
   );
   submitForm() {
-   if(this.formCompletes.valid){ this.dataservice.addUser(this.formCompletes.value).subscribe((data) => {
+   if(this.formComplete.valid){ this.dataservice.addUser(this.formComplete.value).subscribe((data) => {
       alert('Form Submitted');
       this.route.navigate(['/login']);
     });

@@ -20,10 +20,11 @@ import { ServiceCentreListsComponent } from './serviceCentreLists/serviceCentreL
 import { HeaderComponent } from './header/header.component';
 import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/serviceCentreDescription.component';
 import { GaneshGuard } from './ganesh.guard';
+import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
       HomeComponent,
       FooterComponent,
@@ -38,7 +39,8 @@ import { GaneshGuard } from './ganesh.guard';
       PopupDisplayComponent,
       ServiceCentreListsComponent,
       HeaderComponent,
-      ServiceCentreDescriptionComponent
+      ServiceCentreDescriptionComponent,
+      LoginsuccessComponent
    ],
   imports: [
     BrowserModule,
