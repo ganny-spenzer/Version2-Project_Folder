@@ -559,7 +559,7 @@
       "price3": "499",
       "price4": "4499",
       "price5": "7199",
-      "maplink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5959266789094!2d80.23509251475784!3d13.045655690824793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e9b971c41a7%3A0x31e6a1f204e8f0ed!2sPLANETCARE!5e0!3m2!1sen!2sin!4v1621072100416!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+      "maplink": " <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9292521286698!2d80.2378260734179!3d13.040175213374436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52676043216703%3A0xa7b506f148cf12e9!2sApple%20Authorised%20Service%20Provider%20-%20iPlanet%20Care!5e0!3m2!1sen!2sin!4v1687182899366!5m2!1sen!2sin\" width=\"750\" height=\"430\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "about1": "PlanetCare is a trusted authorized mobile service center that provides customers with a range of high-quality products and services. One of the main offerings by the company is genuine parts and accessories for all major mobile phone brands. Customers can rely on PlanetCare to provide authentic products that are specifically designed for their devices, ensuring that they function optimally and reliably",
       "about2": "In addition to parts and accessories, PlanetCare provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
       "about3": "Overall, PlanetCare is a reliable and trustworthy authorized mobile service center that offers customers a wide range of products and services. Whether customers need parts and accessories, repairs, insurance, or a refurbished device, they can count on PlanetCare to provide high-quality solutions that meet their needs.",
@@ -1043,6 +1043,8 @@
       "image2": "https://lh3.googleusercontent.com/p/AF1QipOzVUSOeRJFWqQmoOu1BlBijmIaYEoj8ApNgdz1=s1360-w1360-h1020",
       "image3": "https://lh3.googleusercontent.com/p/AF1QipMjQf2gSyuAQJ4PAKLoT9_-aXg85bgiuLmoQKVQ=s1360-w1360-h1020",
       "shoprating": "4.6",
+      "maplink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.768212295321!2d80.13636881250541!3d12.922613694595904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ee1974bf079%3A0xe2034e84f0309904!2sPlanet%20Care!5e0!3m2!1sen!2sin!4v1680617261844!5m2!1sen!2sin\" width=\"750\" height=\"430\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+
       "price1": "1199",
       "price2": "1299",
       "price3": "599",
