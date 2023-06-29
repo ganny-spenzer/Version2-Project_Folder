@@ -33,7 +33,5 @@ deleteUser(id:number){
     return res;
   }))
 }
-// openProduct(){
-//   this.route.navigate(['Adminproduct']);}
 
 }
