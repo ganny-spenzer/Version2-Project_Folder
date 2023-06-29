@@ -107,6 +107,7 @@ display: block;
   background-color: powderblue;
   height: 12rem;
   width: 99.4%;
+  z-index: -2;
 }
 
   #paraAmz2,#paraAmz3{
@@ -306,4 +307,25 @@ width: 100%;
 .cromadivDeals:hover{
   transition: 1s;
   transform: scale(1.1);
+}
+.popImg{
+  height: 35rem;
+  width: 55rem;
+
+}
+.popImg img{
+height: 100%;
+margin-left: 10rem;
+}
+.popContainer{
+  position: absolute;
+  z-index: 1;
+
+
+}
+.popContainer i{
+  transform: translateY(2.2rem);
+  padding-left: 66rem;
+  color: white;
+  cursor: pointer;
 }

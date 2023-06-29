@@ -1,0 +1,78 @@
+
+<app-header></app-header>
+<nav class="navbar navbar-light bg-info mt-3" style="color:#b0e0e6;">
+  <div class="container-fluid " >
+    <h1>DASHBOARD</h1>
+    <div class="d-flex">
+      <button type="button" (click)="openProduct()" class="btn btn-success me-2">Add Product</button>
+      <button type="button"
+     (click)="clickAddUser()" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add User</button>
+    </div>
+  </div>
+</nav>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Namevalue</th>
+      <th scope="col">Emailvalue</th>
+      <th scope="col">Mobilevalue</th>
+      <th scope="col">Passwordvalue</th>
+      <th scope="col">Action</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of UserData">
+      <td>{{row.namevalue}}</td>
+      <td>{{row.emailvalue}}</td>
+      <td>{{row.mobilevalue}}</td>
+      <td>{{row.passwordvalue}}</td>
+
+
+      <td>
+        <button (click)="onEdit(row)" class="btn btn-info"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+        <button (click)="deleteUser(row)" class="btn btn-danger mx-3" >Delete</button>
+      </td>
+  </tr>
+  </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-namevalue" id="exampleModalLabel">User details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="formValue">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">namevalue</label>
+            <input type="text" formControlName="namevalue" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">emailvalue</label>
+            <input type="email"  formControlName="emailvalue" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">mobilevalue</label>
+            <input type="number"  formControlName="mobilevalue" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">passwordvalue</label>
+            <input type="password"  formControlName="passwordvalue" class="form-control" id="exampleInputPassword1">
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" *ngIf="showAdd" (click)="postUserDetails()" class="btn btn-primary">Add</button>
+        <button type="button" *ngIf="showUpdate" (click)="updateUserDetails()" class="btn btn-primary">Update</button>
+
+      </div>
+    </div>
+  </div>
+</div>

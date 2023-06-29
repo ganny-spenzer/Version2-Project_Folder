@@ -29,11 +29,11 @@
       <form [formGroup]="formComplete" (submit)="submitForm()">
           <h2 id="reg-namehd">Registration Form</h2>
           <div class="reg-fn">
-              <input type="text" id="regfname" formControlName="namevalue" placeholder="First Name" name="namevalue" >
+              <input type="text" id="regfname" formControlName="namevalue" placeholder="Full Name" name="namevalue" >
 
               <div *ngIf="formComplete.controls['namevalue'].dirty" class="alert" >
-                <p  *ngIf="formComplete.controls['namevalue'].errors?.['required']">Username should not be empty</p>
-                <p *ngIf="formComplete.controls['namevalue'].errors?.['pattern']">Username should contains only alphabets</p>
+                <p  *ngIf="formComplete.controls['namevalue'].errors?.['required']">Fullname should not be empty</p>
+                <p *ngIf="formComplete.controls['namevalue'].errors?.['pattern']">Fullname should contains only alphabets</p>
               </div>
             </div>
 

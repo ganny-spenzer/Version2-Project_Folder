@@ -514,20 +514,11 @@
   ],
   "register": [
     {
-      "namevalue": "viper",
-      "emailvalue": "viper@gmail.com",
-      "mobilevalue": "8610209535",
-      "passwordvalue": "vipere",
-      "confirmpasswordvalue": "vipere",
-      "id": 1
-    },
-    {
+      "id": 2,
       "namevalue": "satheesh",
       "emailvalue": "sat@gmail.com",
-      "mobilevalue": "7653455678",
-      "passwordvalue": "Sat@123",
-      "confirmpasswordvalue": "Sat@123",
-      "id": 2
+      "mobilevalue": 7653455671,
+      "passwordvalue": "Sat@123"
     },
     {
       "namevalue": "Ganesh",
@@ -596,7 +587,7 @@
       "price4": "4199",
       "price5": "7599",
       "about1": "PlanetCare(Chennai) stands as a reputable and authorized destination for mobile servicing, offering an extensive array of top-notch products and services. A distinguishing feature of this establishment is its commitment to providing genuine parts and accessories for leading mobile phone brands. With PlanetCare(Chennai), customers can place their trust in the assurance of authenticity, ensuring that their devices operate flawlessly and consistently. This esteemed service center prides itself on delivering tailored solutions that guarantee optimal performance and unwavering reliability.",
-      "about2":"In addition to parts and accessories, PlanetCare provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
+      "about2": "In addition to parts and accessories, PlanetCare provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
       "q1": "1. Whether mobile accessories are available here?",
       "q1ans": "Yes.Branded mobile accessories are available here.",
       "q2": "2. What are the various mode of payment accepted here?",
@@ -604,8 +595,6 @@
       "q3": "3. What are its hours of operation?",
       "q3ans": "Monday-Saturday:9:00 AM to 6:00 PM",
       "id": "2"
-
-
     },
     {
       "shopName": "DRB Enterprises",
@@ -668,7 +657,7 @@
       "q3ans": "Monday-Saturday:9:00 AM to 6:00 PM",
       "id": "4"
     },
-        {
+    {
       "shopName": " OnePlus Exclusive Service Center-1",
       "img": "../../assets/photos/PosterOneplus.jpg",
       "rating": "4.9",
@@ -702,8 +691,7 @@
       "q5ans": "The warranty period for accessories are 6 Months from the date of purchase.No.warranty period is same for all accessories.",
       "id": "5"
     },
-
-        {
+    {
       "shopName": " OnePlus Exclusive Service Center-2",
       "img": "../../assets/photos/PosterOneplus.jpg",
       "rating": "4.8",
@@ -737,7 +725,6 @@
       "q5ans": "The warranty period for accessories are 6 Months from the date of purchase.No.warranty period is same for all accessories.",
       "id": "6"
     },
-
     {
       "shopName": "CROMA",
       "img": "../../assets/photos/PosterApple.jpg",
@@ -759,7 +746,7 @@
       "price4": "4299",
       "price5": "7599",
       "about1": "CROMA stands as a reputable and authorized destination for mobile servicing, offering an extensive array of top-notch products and services. A distinguishing feature of this establishment is its commitment to providing genuine parts and accessories for leading mobile phone brands. With PlanetCare(Chennai), customers can place their trust in the assurance of authenticity, ensuring that their devices operate flawlessly and consistently. This esteemed service center prides itself on delivering tailored solutions that guarantee optimal performance and unwavering reliability.",
-      "about2":"In addition to parts and accessories, CROMA provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
+      "about2": "In addition to parts and accessories, CROMA provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
       "q1": "1. Whether mobile accessories are available here?",
       "q1ans": "Yes.Branded mobile accessories are available here.",
       "q2": "2. What are the various mode of payment accepted here?",
@@ -865,7 +852,6 @@
       "q3ans": "Monday-Saturday:9:00 AM to 6:00 PM",
       "id": "10"
     },
-
     {
       "shopName": "OnePlus Authorized Service Center",
       "img": "../../assets/photos/PosterOneplus.jpg",
@@ -899,8 +885,8 @@
       "q5": "5. What is the warranty period for Accessories?Does warranty period varies from accessories to accessories?",
       "q5ans": "The warranty period for accessories are 6 Months from the date of purchase.No.warranty period is same for all accessories.",
       "id": "11"
-    }
-    , {
+    },
+    {
       "shopName": "Apple Authorised - iPlanet Care",
       "img": "../../assets/photos/PosterApple.jpg",
       "rating": "4.8",
@@ -921,7 +907,7 @@
       "price4": "4199",
       "price5": "7599",
       "about1": "IPlanet Care stands as a reputable and authorized destination for mobile servicing, offering an extensive array of top-notch products and services. A distinguishing feature of this establishment is its commitment to providing genuine parts and accessories for leading mobile phone brands. With PlanetCare(Chennai), customers can place their trust in the assurance of authenticity, ensuring that their devices operate flawlessly and consistently. This esteemed service center prides itself on delivering tailored solutions that guarantee optimal performance and unwavering reliability.",
-      "about2":"In addition to parts and accessories, IPlanet Care provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
+      "about2": "In addition to parts and accessories, IPlanet Care provides a wide range of repair services for mobile phones. The company has a team of skilled and experienced technicians who can diagnose and fix issues such as broken screens, faulty batteries, charging problems, and software issues. The company uses state-of-the-art tools and equipment to ensure that repairs are completed quickly and effectively, minimizing downtime for customers.",
       "q1": "1. Whether mobile accessories are available here?",
       "q1ans": "Yes.Branded mobile accessories are available here.",
       "q2": "2. What are the various mode of payment accepted here?",
@@ -966,7 +952,6 @@
       "q5ans": "The warranty period for accessories are 6 Months from the date of purchase.No.warranty period is same for all accessories.",
       "id": "13"
     },
-
     {
       "shopName": "Great Snipe Technologies",
       "img": "../../assets/photos/PosterSamsungg.jpg",
@@ -1044,7 +1029,6 @@
       "image3": "https://lh3.googleusercontent.com/p/AF1QipMjQf2gSyuAQJ4PAKLoT9_-aXg85bgiuLmoQKVQ=s1360-w1360-h1020",
       "shoprating": "4.6",
       "maplink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.768212295321!2d80.13636881250541!3d12.922613694595904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ee1974bf079%3A0xe2034e84f0309904!2sPlanet%20Care!5e0!3m2!1sen!2sin!4v1680617261844!5m2!1sen!2sin\" width=\"750\" height=\"430\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-
       "price1": "1199",
       "price2": "1299",
       "price3": "599",

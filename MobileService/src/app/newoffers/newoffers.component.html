@@ -21,8 +21,17 @@
   </ul>
 
 </div> -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+/>
 <app-header></app-header>
-
+<div class="popContainer" *ngIf="popup">
+  <i class="fas fa-times" (click)="closepopup()"></i>
+  <div class="popImg">
+    <img src="../../assets/photos/flipkart big bilion days.png" alt="img" />
+  </div>
+</div>
 <div class="headlineAmz">
   <p id="paraAmz2">
     We got you popular deals/offers of mobile phones on various online store
@@ -50,7 +59,7 @@
 </div>
 <div class="phoneDisplay">
   <div class="phoneDisplayItem" *ngFor="let deal of allDeals">
-    <a href="{{deal.amazonlink}}"><img src="{{ deal.Image1 }}" alt="" /></a>
+    <a href="{{ deal.amazonlink }}"><img src="{{ deal.Image1 }}" alt="" /></a>
   </div>
 </div>
 <div class="flipkartDealshd">
@@ -71,12 +80,15 @@
 </div>
 <div class="flipkartItemDisplay">
   <div class="flipkartItemMain" *ngFor="let fdeals of allflipkartDeals">
-    <a href= "{{fdeals.Contentlink}}">
+    <a href="{{ fdeals.Contentlink }}">
       <div class="flipkartItemSub1">
         <img src="{{ fdeals.flipkartImg }}" alt="" />
         <div class="flipkartItemSub2">
-          <p>{{fdeals.Contentp}}</p>
-          <h2>RS.{{fdeals.Contenthd -1000 }}  <span id="innerflipkartOffer"> {{fdeals.Contentspan}}</span></h2>
+          <p>{{ fdeals.Contentp }}</p>
+          <h2>
+            RS.{{ fdeals.Contenthd }}
+            <span id="innerflipkartOffer"> {{ fdeals.Contentspan }}</span>
+          </h2>
         </div>
       </div>
     </a>
@@ -86,16 +98,17 @@
   <h1>
     Croma Deals
     <span id="cromaDealshdLine"
-      >-----------------------------------------------------------------------------------------------------------------------------------------------------</span>
+      >-----------------------------------------------------------------------------------------------------------------------------------------------------</span
+    >
   </h1>
 </div>
 <div class="cromaDealDiv">
-  <a href="">
-    <img src="../../assets/photos/Croma BAnner.png" alt=""
-  /></a>
+  <a href=""> <img src="../../assets/photos/Croma BAnner.png" alt="" /></a>
 </div>
 <div class="cromaMainDiv">
-<div class="cromadivDeals" *ngFor="let cdeal of allcromaDeals">
- <a href="{{cdeal.cromalink}}"> <img src="{{cdeal.cromaImg}}" alt=""></a>
-</div>
+  <div class="cromadivDeals" *ngFor="let cdeal of allcromaDeals">
+    <a href="{{ cdeal.cromalink }}">
+      <img src="{{ cdeal.cromaImg }}" alt=""
+    /></a>
+  </div>
 </div>

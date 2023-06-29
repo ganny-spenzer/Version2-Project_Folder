@@ -20,11 +20,12 @@ import { ServiceCentreListsComponent } from './serviceCentreLists/serviceCentreL
 import { HeaderComponent } from './header/header.component';
 import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/serviceCentreDescription.component';
 import { GaneshGuard } from './ganesh.guard';
-import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
+import { AdminComponent } from './Admin/Admin.component';
+import { AdminproductComponent } from './adminproduct/adminproduct.component';
 
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
       HomeComponent,
       FooterComponent,
@@ -40,7 +41,9 @@ import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
       ServiceCentreListsComponent,
       HeaderComponent,
       ServiceCentreDescriptionComponent,
-      LoginsuccessComponent
+      AdminComponent,
+      AdminproductComponent,
+
    ],
   imports: [
     BrowserModule,

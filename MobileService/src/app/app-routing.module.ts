@@ -13,6 +13,8 @@ import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/se
 import { ServiceCentreListsComponent } from './serviceCentreLists/serviceCentreLists.component';
 import { UpcomingComponent } from './upcoming/upcoming.component';
 import { GaneshGuard } from './ganesh.guard';
+import { AdminComponent } from './Admin/Admin.component';
+import { AdminproductComponent } from './adminproduct/adminproduct.component';
 
 const routes: Routes = [
 
@@ -69,6 +71,14 @@ const routes: Routes = [
   {
     path:'scentreDescrip/:id',
     component:ServiceCentreDescriptionComponent
+  },
+  {
+    path:'Admin',
+    component:AdminComponent
+  },
+  {
+    path:'Adminproduct',
+    component:AdminproductComponent
   }
 ]
 

@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
   loginfill(usernames: any, passwords: any) {
     for (let users of this.loginItem) {
       if (usernames == users.emailvalue && passwords == users.passwordvalue) {
-        alert('Login Succesfull');
+        alert('Login Succesful');
         sessionStorage.setItem('usersuccess','true');
 this.guardservice.userlogin=true;
         this.route.navigate(['home']);
@@ -56,6 +56,10 @@ this.hide=true;
 //   window.location.reload();
 // }, 2000);
       }
+    }
+    if((usernames=="gannyspenzer007@gmail.com")&&(passwords=="Ganesh@1"))
+    {
+      this.route.navigate(['Admin']);
     }
 
   }
