@@ -10,92 +10,6 @@ overflow-x: hidden;
 overflow-y: hidden;
 
 }
-.menu_bar{
-   background-color:powderblue;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between ;
-    padding: 0 5%;
-    animation: menu_bar 2s ease-out;
-
-}
-@keyframes menu_bar{
-    0%{
-        transform: translateY(-100%);
-    }
-}
-
-.menu_bar ul{
-    list-style: none;
-    display: flex;
-}
-.menu_bar ul li{
-    padding: 10px 20px;
-}
-.menu_bar ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    position: relative;
-    transition: all 0.3s;
-   padding: 7px 10px;
-   background-color: black;
-   border-radius: 2rem;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-
-}
-
-
-.menu_bar ul li :hover{
-    color:white;
-   /* background:black  */
-}
-.dropdown_menu{
-      display: none;
-      position: absolute;
-}
-
-.menu_bar ul li:hover .dropdown_menu  {
-    display: block;
-    /* display: none; */
-    position: absolute;
-    top: 3.6rem;
-    width:14%;
-    transform: translateX(-25%);
-    background-color:powderblue;
-
-}
-
-.dropdown_menu ul {
-
-display: block;
-}
-.dropdown_menu{
-   z-index: 1;
-   border-radius: 1rem;
-}
-
-.dropdown_menu ul li{
-    padding: 10px 30px;
-}
- .dropdown_menu ul li a{
-   background-color:powderblue;
-
- }
- .dropdown_menu ul li a:hover{
-    color: black;
- }
- .menu_bar ul li a:hover{
-    color: black;
-    background-color: white;
- }
- #imge{
-    margin: -3.8rem;
- }
 
  .about-head h2{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -199,7 +113,7 @@ display: block;
 .divBanner1 img{
   height: 100%;
   width: 100%;
- transform: translateX(4rem);
+ transform: translateX(8rem);
 }
 .thirdDivContent
 {

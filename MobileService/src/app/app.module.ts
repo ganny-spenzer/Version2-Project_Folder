@@ -22,10 +22,11 @@ import { ServiceCentreDescriptionComponent } from './serviceCentreDescription/se
 import { GaneshGuard } from './ganesh.guard';
 import { AdminComponent } from './Admin/Admin.component';
 import { AdminproductComponent } from './adminproduct/adminproduct.component';
+import { PartnerComponent } from './Partner/Partner.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
       HomeComponent,
       FooterComponent,
@@ -43,7 +44,7 @@ import { AdminproductComponent } from './adminproduct/adminproduct.component';
       ServiceCentreDescriptionComponent,
       AdminComponent,
       AdminproductComponent,
-
+      PartnerComponent
    ],
   imports: [
     BrowserModule,

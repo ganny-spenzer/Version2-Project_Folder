@@ -15,6 +15,7 @@ import { UpcomingComponent } from './upcoming/upcoming.component';
 import { GaneshGuard } from './ganesh.guard';
 import { AdminComponent } from './Admin/Admin.component';
 import { AdminproductComponent } from './adminproduct/adminproduct.component';
+import { PartnerComponent } from './Partner/Partner.component';
 
 const routes: Routes = [
 
@@ -79,7 +80,12 @@ const routes: Routes = [
   {
     path:'Adminproduct',
     component:AdminproductComponent
+  },
+  {
+    path:'partner',
+    component:PartnerComponent
   }
+
 ]
 
 

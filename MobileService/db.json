@@ -310,52 +310,64 @@
   ],
   "Deals": [
     {
-      "Image1": "../../assets/photos/Top deal-img1.jpg",
-      "amazonlink": "https://www.amazon.in/gp/product/B0BSNQ2KXF/ref=s9_acss_bw_cg_Budget_6a1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=R0S37ZF03F6PQHAN5KBW&pf_rd_t=101&pf_rd_p=950e35a4-1eb8-4bd7-8664-153002673c28&pf_rd_i=1389401031"
+      "id": 1,
+      "amazonimagevalue": "../../assets/photos/Top deal-img1.jpg",
+      "amazonlinkvalue": "https://rb.gy/t69r9"
     },
     {
-      "Image1": "../../assets/photos/Top deal-img2.jpg",
-      "amazonlink": "https://www.amazon.in/gp/product/B07WGPKNGT/ref=s9_acss_bw_cg_Budget_6b1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=11X9NF1TFZKC5NVJ7VP0&pf_rd_t=101&pf_rd_p=950e35a4-1eb8-4bd7-8664-153002673c28&pf_rd_i=1389401031"
+      "amazonimagevalue": "../../assets/photos/Top deal-img2.jpg",
+      "amazonlinkvalue": "https://rb.gy/19p6w",
+      "id": 2
     },
     {
-      "Image1": "../../assets/photos/Top deal-img3.jpg",
-      "amazonlink": "https://www.amazon.in/gp/product/B09QS8V5N8/ref=s9_acss_bw_cg_Budget_6c1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=11X9NF1TFZKC5NVJ7VP0&pf_rd_t=101&pf_rd_p=950e35a4-1eb8-4bd7-8664-153002673c28&pf_rd_i=1389401031"
+      "amazonimagevalue": "../../assets/photos/Top deal-img3.jpg",
+      "amazonlinkvalue": "https://rb.gy/7tqcz",
+      "id": 3
     },
     {
-      "Image1": "../../assets/photos/Top deal-img4.jpg",
-      "amazonlink": "https://www.amazon.in/gp/product/B0BMGB3CH9/ref=s9_acss_bw_cg_Budget_6d1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=11X9NF1TFZKC5NVJ7VP0&pf_rd_t=101&pf_rd_p=950e35a4-1eb8-4bd7-8664-153002673c28&pf_rd_i=1389401031"
+      "amazonimagevalue": "../../assets/photos/Top deal-img4.jpg",
+      "amazonlinkvalue": "https://rb.gy/kdai6",
+      "id": 4
     },
     {
-      "Image1": "../../assets/photos/Top deal-img5.jpg",
-      "amazonlink": "https://www.amazon.in/gp/product/B0BT9CXXXX/ref=s9_acss_bw_cg_Budget_6e1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=11X9NF1TFZKC5NVJ7VP0&pf_rd_t=101&pf_rd_p=950e35a4-1eb8-4bd7-8664-153002673c28&pf_rd_i=1389401031"
+      "amazonimagevalue": "../../assets/photos/Top deal-img5.jpg",
+      "amazonlinkvalue": "https://rb.gy/6e12i",
+      "id": 5
     },
     {
-      "Image1": "../../assets/photos/Top deal-img6.jpg",
-      "amazonlink": "https://www.amazon.in/gp/product/B0BBFKYH4N/ref=s9_acss_bw_cg_Budget_7a1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=11X9NF1TFZKC5NVJ7VP0&pf_rd_t=101&pf_rd_p=950e35a4-1eb8-4bd7-8664-153002673c28&pf_rd_i=1389401031"
+      "amazonimagevalue": "../../assets/photos/Top deal-img6.jpg",
+      "amazonlinkvalue": "https://rb.gy/i7dxq",
+      "id": 6
     },
     {
-      "Image1": "../../assets/photos/Top deal-img7.jpg",
-      "amazonlink": "https://www.amazon.in/gp/product/B07WHQLR7G/ref=s9_acss_bw_cg_Budget_7b1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=J1BZFCKZF93P97ARMMEC&pf_rd_t=101&pf_rd_p=950e35a4-1eb8-4bd7-8664-153002673c28&pf_rd_i=1389401031"
+      "amazonimagevalue": "../../assets/photos/Top deal-img7.jpg",
+      "amazonlinkvalue": "https://rb.gy/6g7j3",
+      "id": 7
     },
     {
-      "Image1": "../../assets/photos/Top deal-img8.jpg",
-      "amazonlink": "https://www.amazon.in/Tecno-Spark-Infinity-Expandable-Processor/dp/B0B56YWX99/ref=sr_1_4?keywords=tecno+spark+9&qid=1679377998&s=electronics&sr=1-4"
+      "amazonimagevalue": "../../assets/photos/Top deal-img8.jpg",
+      "amazonlinkvalue": "https://rb.gy/sdwr5",
+      "id": 8
     },
     {
-      "Image1": "../../assets/photos/Top deal-img9.jpg",
-      "amazonlink": "https://www.amazon.in/Lava-Blaze-5G-Green-Expandable/dp/B0BSTVXFWD/ref=sr_1_3?keywords=lava+blaze+5g&qid=1679378036&s=electronics&sr=1-3"
+      "amazonimagevalue": "../../assets/photos/Top deal-img9.jpg",
+      "amazonlinkvalue": "https://rb.gy/yfcy3",
+      "id": 9
     },
     {
-      "Image1": "../../assets/photos/Top deal-img10.jpg",
-      "amazonlink": "https://www.amazon.in/OnePlus-Moonstone-Black-256GB-Storage/dp/B0B5V5NRMV/ref=sr_1_1?keywords=oneplus+10t&qid=1679378132&s=electronics&sr=1-1"
+      "amazonimagevalue": "../../assets/photos/Top deal-img10.jpg",
+      "amazonlinkvalue": "https://rb.gy/lnudd",
+      "id": 10
     },
     {
-      "Image1": "../../assets/photos/Top deal-img11.jpg",
-      "amazonlink": "https://www.amazon.in/Redmi-Note-11T-5G-Dimensity/dp/B09LHZSMRR/ref=sr_1_2?keywords=redmi+note+11t&qid=1679378221&s=electronics&sr=1-2"
+      "amazonimagevalue": "../../assets/photos/Top deal-img11.jpg",
+      "amazonlinkvalue": "https://rb.gy/ho6er",
+      "id": 11
     },
     {
-      "Image1": "../../assets/photos/Top deal-img12.jpg",
-      "amazonlink": "https://www.amazon.in/realme-Storage-Definition-Display-Included/dp/B0BG1PYJR4/ref=sr_1_1?crid=3R965BR5ZNY2G&keywords=realme+narzo+50a+prime&qid=1679378265&s=electronics&sprefix=realme+narzo+50a+prime%2Celectronics%2C274&sr=1-1"
+      "amazonimagevalue": "../../assets/photos/Top deal-img12.jpg",
+      "amazonlinkvalue": "https://rb.gy/giagr",
+      "id": 12
     }
   ],
   "flipkartdeals": [
@@ -529,6 +541,9 @@
       "id": 3
     }
   ],
+  "shopapply": [
+
+  ],
   "shopDetails": [
     {
       "shopName": "PLANETCARE",
@@ -607,9 +622,9 @@
       "phoneno": "9840393222",
       "shoplocation": "Chennai",
       "brandname": "samsung",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipP8_BAdL5LlhZS86YS1Bp3HLPC8zuGohlLepQFg=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipPdpt50Rg9IRKSawsoAPhyvGD8tGbmP7FBuXdZP=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipNnw17nCMQ_G-jXNzUtnVtjwmZ5NnD5IpV_3ONE=s1360-w1360-h1020",
+      "image1": "../../assets/photos/samsungshop1.jpeg",
+      "image2": "../../assets/photos/samsungshop2.jpg",
+      "image3": "../../assets/photos/samsungshop3.jpg",
       "shoprating": "5.0",
       "price1": "999",
       "price2": "1499",
@@ -638,9 +653,9 @@
       "phoneno": "9840393222",
       "shoplocation": "Chennai",
       "brandname": "samsung",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipP8_BAdL5LlhZS86YS1Bp3HLPC8zuGohlLepQFg=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipNnw17nCMQ_G-jXNzUtnVtjwmZ5NnD5IpV_3ONE=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipPdpt50Rg9IRKSawsoAPhyvGD8tGbmP7FBuXdZP=s1360-w1360-h1020",
+      "image1": "../../assets/photos/samsungshop3.jpg",
+      "image2": "../../assets/photos/samsungshop1.jpeg",
+      "image3": "../../assets/photos/samsungshop2.jpg",
       "shoprating": "4.5",
       "price1": "999",
       "price2": "1399",
@@ -668,9 +683,9 @@
       "phoneno": "8056126374",
       "shoplocation": "Chennai",
       "brandname": "oneplus",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipOzVUSOeRJFWqQmoOu1BlBijmIaYEoj8ApNgdz1=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipMjQf2gSyuAQJ4PAKLoT9_-aXg85bgiuLmoQKVQ=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipORqRqjsGO6cVgMHic3EFAB8kpmFgwFxK8ZZ77F=s1360-w1360-h1020",
+      "image1": "../../assets/photos/oneplusshop1.jpg",
+      "image2": "../../assets/photos/oneplusshop2.jpg",
+      "image3": "../../assets/photos/oneplusshop3.jpg",
       "shoprating": "4.9",
       "price1": "1099",
       "price2": "1499",
@@ -702,9 +717,9 @@
       "phoneno": "044-48599315",
       "shoplocation": "Chennai",
       "brandname": "oneplus",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipORqRqjsGO6cVgMHic3EFAB8kpmFgwFxK8ZZ77F=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipOzVUSOeRJFWqQmoOu1BlBijmIaYEoj8ApNgdz1=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipMjQf2gSyuAQJ4PAKLoT9_-aXg85bgiuLmoQKVQ=s1360-w1360-h1020",
+      "image1": "../../assets/photos/oneplusshop3.jpg",
+      "image2": "../../assets/photos/oneplusshop1.jpg",
+      "image3": "../../assets/photos/oneplusshop2.jpg",
       "shoprating": "4.8",
       "price1": "1199",
       "price2": "1299",
@@ -802,9 +817,9 @@
       "phoneno": "9943383838",
       "shoplocation": "Salem",
       "brandname": "samsung",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipP8_BAdL5LlhZS86YS1Bp3HLPC8zuGohlLepQFg=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipPdpt50Rg9IRKSawsoAPhyvGD8tGbmP7FBuXdZP=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipNnw17nCMQ_G-jXNzUtnVtjwmZ5NnD5IpV_3ONE=s1360-w1360-h1020",
+      "image1": "../../assets/photos/samsungshop2.jpg",
+      "image2": "../../assets/photos/samsungshop3.jpg",
+      "image3": "../../assets/photos/samsungshop1.jpeg",
       "shoprating": "4.4",
       "price1": "999",
       "price2": "1499",
@@ -833,9 +848,9 @@
       "phoneno": "9943383838",
       "shoplocation": "Salem",
       "brandname": "samsung",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipP8_BAdL5LlhZS86YS1Bp3HLPC8zuGohlLepQFg=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipNnw17nCMQ_G-jXNzUtnVtjwmZ5NnD5IpV_3ONE=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipPdpt50Rg9IRKSawsoAPhyvGD8tGbmP7FBuXdZP=s1360-w1360-h1020",
+      "image1": "../../assets/photos/samsungshop1.jpeg",
+      "image2": "../../assets/photos/samsungshop3.jpg",
+      "image3": "../../assets/photos/samsungshop2.jpg",
       "shoprating": "4.3",
       "price1": "999",
       "price2": "1399",
@@ -863,9 +878,9 @@
       "phoneno": "9943383838",
       "shoplocation": "Salem",
       "brandname": "oneplus",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipOzVUSOeRJFWqQmoOu1BlBijmIaYEoj8ApNgdz1=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipMjQf2gSyuAQJ4PAKLoT9_-aXg85bgiuLmoQKVQ=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipORqRqjsGO6cVgMHic3EFAB8kpmFgwFxK8ZZ77F=s1360-w1360-h1020",
+      "image1": "../../assets/photos/oneplusshop1.jpg",
+      "image2": "../../assets/photos/oneplusshop3.jpg",
+      "image3": "../../assets/photos/oneplusshop2.jpg",
       "shoprating": "4.2",
       "price1": "1099",
       "price2": "1499",
@@ -963,9 +978,9 @@
       "phoneno": "9994999148",
       "shoplocation": "Coimbatore",
       "brandname": "samsung",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipP8_BAdL5LlhZS86YS1Bp3HLPC8zuGohlLepQFg=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipNnw17nCMQ_G-jXNzUtnVtjwmZ5NnD5IpV_3ONE=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipPdpt50Rg9IRKSawsoAPhyvGD8tGbmP7FBuXdZP=s1360-w1360-h1020",
+      "image1": "../../assets/photos/samsungshop3.jpg",
+      "image2": "../../assets/photos/samsungshop2.jpg",
+      "image3": "../../assets/photos/samsungshop1.jpeg",
       "shoprating": "4.5",
       "price1": "999",
       "price2": "1399",
@@ -993,9 +1008,9 @@
       "phoneno": "9626025522",
       "shoplocation": "Coimbatore",
       "brandname": "samsung",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipP8_BAdL5LlhZS86YS1Bp3HLPC8zuGohlLepQFg=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipPdpt50Rg9IRKSawsoAPhyvGD8tGbmP7FBuXdZP=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipNnw17nCMQ_G-jXNzUtnVtjwmZ5NnD5IpV_3ONE=s1360-w1360-h1020",
+      "image1": "../../assets/photos/samsungshop1.jpeg",
+      "image2": "../../assets/photos/samsungshop2.jpg",
+      "image3": "../../assets/photos/samsungshop3.jpg",
       "shoprating": "4.3",
       "price1": "999",
       "price2": "1499",
@@ -1024,9 +1039,9 @@
       "phoneno": "9747826753",
       "shoplocation": "Coimbatore",
       "brandname": "oneplus",
-      "image1": "https://lh3.googleusercontent.com/p/AF1QipORqRqjsGO6cVgMHic3EFAB8kpmFgwFxK8ZZ77F=s1360-w1360-h1020",
-      "image2": "https://lh3.googleusercontent.com/p/AF1QipOzVUSOeRJFWqQmoOu1BlBijmIaYEoj8ApNgdz1=s1360-w1360-h1020",
-      "image3": "https://lh3.googleusercontent.com/p/AF1QipMjQf2gSyuAQJ4PAKLoT9_-aXg85bgiuLmoQKVQ=s1360-w1360-h1020",
+      "image1": "../../assets/photos/oneplusshop3.jpg",
+      "image2": "../../assets/photos/oneplusshop2.jpg",
+      "image3": "../../assets/photos/oneplusshop1.jpg",
       "shoprating": "4.6",
       "maplink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.768212295321!2d80.13636881250541!3d12.922613694595904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ee1974bf079%3A0xe2034e84f0309904!2sPlanet%20Care!5e0!3m2!1sen!2sin!4v1680617261844!5m2!1sen!2sin\" width=\"750\" height=\"430\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "price1": "1199",

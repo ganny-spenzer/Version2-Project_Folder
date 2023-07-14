@@ -23,69 +23,145 @@
 <app-header></app-header>
 <div class="reg-main-grid">
   <div class="main-grid-0">
-      <img src="../../assets/photos/register cartoon 2.jpg" height="450rem" width="470rem" alt="img">
+    <img
+      src="../../assets/photos/register cartoon 2.jpg"
+      height="450rem"
+      width="470rem"
+      alt="img"
+    />
   </div>
   <div class="main-reg">
-      <form [formGroup]="formComplete" (submit)="submitForm()">
-          <h2 id="reg-namehd">Registration Form</h2>
-          <div class="reg-fn">
-              <input type="text" id="regfname" formControlName="namevalue" placeholder="Full Name" name="namevalue" >
+    <form [formGroup]="formComplete" (submit)="submitForm()">
+      <h2 id="reg-namehd">Registration Form</h2>
+      <div class="reg-fn">
+        <input
+          type="text"
+          id="regfname"
+          formControlName="namevalue"
+          placeholder="Full Name"
+          name="namevalue"
+        />
+        <div class="spaceForClass"></div>
+        <div *ngIf="formComplete.controls['namevalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['namevalue'].errors?.['required']">
+            Fullname should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['namevalue'].errors?.['pattern']">
+            Fullname should contains only alphabets,<br />
+            Consecutive Character should less than three
+          </p>
+        </div>
+      </div>
 
-              <div *ngIf="formComplete.controls['namevalue'].dirty" class="alert" >
-                <p  *ngIf="formComplete.controls['namevalue'].errors?.['required']">Fullname should not be empty</p>
-                <p *ngIf="formComplete.controls['namevalue'].errors?.['pattern']">Fullname should contains only alphabets</p>
-              </div>
-            </div>
-
-
-          <!-- <div class="reg-dob">
+      <!-- <div class="reg-dob">
               <input type="date" id="regdob"  placeholder="mm/dd/yyyy" required>
           </div> -->
-          <div class="reg-phone">
-              <input type="tel" maxlength="10" id="regphn" required  formControlName="mobilevalue" name="regphn"
-                  placeholder="Phone Number">
+      <div class="reg-phone">
+        <input
+          type="tel"
+          maxlength="10"
+          id="regphn"
+          required
+          formControlName="mobilevalue"
+          name="regphn"
+          placeholder="Phone Number"
+        />
+        <div class="spaceForClass"></div>
 
-                  <div *ngIf="formComplete.controls['mobilevalue'].dirty" class="alert">
-                    <p *ngIf="formComplete.controls['mobilevalue'].errors?.['required']">Mobile Number should not be empty</p>
-                    <p *ngIf="formComplete.controls['mobilevalue'].errors?.['pattern']">Enter a valid mobile number</p>
-                  </div>
-                </div>
+        <div *ngIf="formComplete.controls['mobilevalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['mobilevalue'].errors?.['required']">
+            Mobile Number should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['mobilevalue'].errors?.['pattern']">
+            Enter a valid mobile number
+          </p>
+        </div>
+      </div>
 
-          <div class="reg-email">
-              <input type="email" id="regeml" name="regeml"  formControlName="emailvalue" placeholder="Enter Email">
+      <div class="reg-email">
+        <input
+          type="email"
+          id="regeml"
+          name="regeml"
+          formControlName="emailvalue"
+          placeholder="Enter Email"
+        />
+        <div class="spaceForClass"></div>
 
-              <div *ngIf="formComplete.controls['emailvalue'].dirty" class="alert">
-                <p *ngIf="formComplete.controls['emailvalue'].errors?.['required']">Email should not be empty</p>
-                <p *ngIf="formComplete.controls['emailvalue'].errors?.['pattern']">Enter a valid email</p>
-              </div>
-            </div>
+        <div *ngIf="formComplete.controls['emailvalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['emailvalue'].errors?.['required']">
+            Email should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['emailvalue'].errors?.['pattern']">
+            Enter a valid email
+          </p>
+        </div>
+      </div>
 
-          <div class="regpas">
-              <input type="text" id="regpas"  name="regpas"  formControlName="passwordvalue" placeholder="Create Password"
-              >
-                  <div *ngIf="formComplete.controls['passwordvalue'].dirty" class="alert">
-                    <p *ngIf="formComplete.controls['passwordvalue'].errors?.['required']" >Password should not be empty</p>
-                    <p *ngIf="formComplete.controls['passwordvalue'].errors?.['pattern']" >Password Must Contain atleast 1Uppercase, 1Lowercase,1Symbol,1Number </p>
-                  </div>
-                </div>
+      <div class="regpas">
+        <input
+          type="text"
+          id="regpas"
+          name="regpas"
+          formControlName="passwordvalue"
+          placeholder="Create Password"
+        />
+        <div class="spaceForClass"></div>
 
+        <div *ngIf="formComplete.controls['passwordvalue'].dirty" class="alert">
+          <p
+            *ngIf="formComplete.controls['passwordvalue'].errors?.['required']"
+          >
+            Password should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['passwordvalue'].errors?.['pattern']">
+            Password Must Contain atleast 1Uppercase, 1Lowercase,1Symbol,1Number
+          </p>
+        </div>
+      </div>
 
+      <div class="regconpas">
+        <input
+          type="text"
+          id="regconpas"
+          required
+          formControlName="confirmpasswordvalue"
+          name="regconpas"
+          placeholder="Confirm Password"
+        />
+        <div class="spaceForClass"></div>
 
-          <div class="regconpas">
-              <input type="text" id="regconpas" required  formControlName="confirmpasswordvalue" name="regconpas"
-                  placeholder="Confirm Password" >
-                  <div *ngIf="formComplete.controls['confirmpasswordvalue'].dirty" class="alert">
-                    <p  *ngIf="formComplete.controls['confirmpasswordvalue'].errors?.['required']">Confirm PW should not be Empty</p>
-                    <p  *ngIf="formComplete.controls['confirmpasswordvalue'].errors?.['confirmPasswordValidate']">Confirm Password Doesn't Match Password</p>
-                  </div>
-                </div>
+        <div
+          *ngIf="formComplete.controls['confirmpasswordvalue'].dirty"
+          class="alert"
+        >
+          <p
+            *ngIf="formComplete.controls['confirmpasswordvalue'].errors?.['required']"
+          >
+            Confirm PW should not be Empty
+          </p>
+          <p
+            *ngIf="formComplete.controls['confirmpasswordvalue'].errors?.['confirmPasswordValidate']"
+          >
+            Confirm Password Doesn't Match Password
+          </p>
+        </div>
+      </div>
 
-          <div class="regbtn">
-              <button id="btnreg" type="submit"[disabled]="!formComplete.valid"><span id="btnregspn"> Register</span></button>
-          </div>
-      </form>
+      <div class="regbtn">
+        <button id="btnreg" type="submit" [disabled]="!formComplete.valid">
+          <span id="btnregspn"> Register</span>
+        </button>
+      </div>
+    </form>
   </div>
   <div class="reg-grid-2">
-      <img src="../../assets/photos/Registeration cartoon.png" width="410rem" id="regcrtn1" height="520rem" alt="img">
+    <img
+      src="../../assets/photos/Registeration cartoon.png"
+      width="410rem"
+      id="regcrtn1"
+      height="520rem"
+      alt="img"
+    />
   </div>
 </div>

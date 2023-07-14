@@ -1,0 +1,140 @@
+<app-header></app-header>
+<div class="introContent">
+  <p>Thank you for considering a partnership with us at JustFix, a leading provider of mobile service management systems. We believe in revolutionizing the way businesses manage their service operations through our innovative and user-friendly technology. Join us in shaping the future of mobile service management and let's create a seamless experience for businesses and their customers together.</p>
+
+</div>
+<div class="partnerContents">
+  <h3>Why Partner With Us?</h3>
+  <div class="innerContentMainDiv">
+    <div class="innerContentDiv1">
+      <h3>Expanded Reach</h3>
+      <p> By integrating your service centre into our platform, you can expand your customer base and reach a wider audience of mobile users seeking repair services.</p>
+    </div>
+    <div class="innerContentDiv1">
+      <h3>Enhanced Visibility</h3>
+      <p>JustFix allows users to view additional features and details about each service centre, giving your business increased visibility and an opportunity to showcase your expertise and unique offerings.</p>
+    </div>
+  </div>
+  <div class="innerContentMainDiv">
+    <div class="innerContentDiv1">
+      <h3>Streamlined Operations</h3>
+      <p>Our platform streamlines the appointment scheduling process, reducing administrative burdens and ensuring a smooth workflow for both service centres and users.</p>
+    </div>
+    <div class="innerContentDiv1">
+      <h3>Increased Credibility</h3>
+      <p>Aligning your business with JustFix's brand enhances your credibility and positions you as a trusted service provider within the mobile repair industry.</p>
+    </div>
+  </div>
+
+</div> <br><br> <br>
+<div class="howtoPartnerDiv">
+  <h3>How to Partner With Us?</h3>
+  <p>We are excited to collaborate with service centre owners like you to provide users with the best mobile repair services. To initiate the partnership process, please fill out our Service Centre Application Form which is given below.Once it is filled,we will reach you out shortly.</p>
+  <div class="main-reg">
+    <form [formGroup]="formComplete" (submit)="submitForm()">
+      <h2 id="reg-namehd">Application Form</h2>
+      <div class="reg-fn">
+        <input
+          type="text"
+
+          formControlName="shopnamevalue"
+          placeholder="Shop Name"
+          name="namevalue"
+        />
+
+        <div class="spaceForClass"></div>
+        <div *ngIf="formComplete.controls['shopnamevalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['shopnamevalue'].errors?.['required']">
+            Shop Name should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['shopnamevalue'].errors?.['pattern']">
+            Shop Name should contains only alphabets
+          </p>
+        </div>
+      </div>
+      <div class="reg-fn">
+        <input
+          type="text"
+          formControlName="shopownernamevalue"
+          placeholder="Shop Owner Name"
+          name="shopownernamevalue"
+        />
+
+        <div class="spaceForClass"></div>
+        <div *ngIf="formComplete.controls['shopownernamevalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['shopownernamevalue'].errors?.['required']">
+            Shop Owner Name should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['shopownernamevalue'].errors?.['pattern']">
+            Shop Owner Name should contains only alphabets
+          </p>
+        </div>
+      </div>
+
+
+      <div class="reg-phone">
+        <input
+          type="tel"
+          maxlength="10"
+          required
+          formControlName="mobilevalue"
+
+          placeholder="Phone Number"
+        />
+        <div class="spaceForClass"></div>
+
+        <div *ngIf="formComplete.controls['ownermobilevalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['ownermobilevalue'].errors?.['required']">
+            Mobile Number should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['ownermobilevalue'].errors?.['pattern']">
+            Enter a valid mobile number
+          </p>
+        </div>
+      </div>
+
+      <div class="reg-email">
+        <input
+          type="email"
+          formControlName="emailvalue"
+          placeholder="Enter Email"
+        />
+        <div class="spaceForClass"></div>
+
+        <div *ngIf="formComplete.controls['emailvalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['emailvalue'].errors?.['required']">
+            Email should not be empty
+          </p>
+          <p *ngIf="formComplete.controls['emailvalue'].errors?.['pattern']">
+            Enter a valid email
+          </p>
+        </div>
+
+      </div>
+      <div class="reg-san">
+        <input
+          type="text"
+         formControlName="shopaddressvalue"
+          placeholder="Enter Address"
+          name="shopownernamevalue"
+        />
+
+        <div class="spaceForClass"></div>
+        <div *ngIf="formComplete.controls['shopaddressvalue'].dirty" class="alert">
+          <p *ngIf="formComplete.controls['shopaddressvalue'].errors?.['required']">
+            Address should not be empty
+          </p>
+
+        </div>
+      </div>
+      <div class="regbtn">
+        <button id="btnreg" type="submit" [disabled]="!formComplete.valid">
+          <span id="btnregspn"> Submit</span>
+        </button>
+      </div>
+
+
+    </form>
+  </div>
+</div>
+<app-footer></app-footer>

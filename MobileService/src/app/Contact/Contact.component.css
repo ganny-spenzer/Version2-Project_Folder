@@ -228,11 +228,11 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #fbid{
     margin-top: 2rem;
-    padding-left: 4.3rem;
+    padding-left: 3.2rem;
     font-size: 25px;
 }
 #twtrid,#linkdinid,#instaid{
-    padding: 0px 2px;
+    padding: 0px 8px;
     font-size: 25px;
 
 }

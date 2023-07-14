@@ -23,10 +23,10 @@ export class RegistrationComponent  {
 
   constructor(private fb:FormBuilder,private dataservice:StoreService,private route:Router) { }
   formComplete=this.fb.group({
-    namevalue:[,[Validators.required,Validators.pattern("^[a-zA-Z]+$")]],
+    namevalue:[,[Validators.required,Validators.pattern("^(?!.*([a-zA-Z])\\1\\1)[a-zA-Z]+$")]],
     emailvalue:[,[Validators.required,Validators.pattern("^[0-9a-zA-Z]+[._]{0,1}[0-9a-zA-Z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}$")]],
-    mobilevalue:[,[Validators.required,Validators.pattern("^[6-9]{1}[0-9]{9}$")]],
-    passwordvalue:[,[Validators.required,Validators.pattern("^[A-Z]{1}[a-z]+[@][1-9]{1,7}$")]],
+    mobilevalue: [, [Validators.required, Validators.pattern("^[6-9](?!.*(\\d)\\1{4})\\d{9}$")]],
+    passwordvalue:[,[Validators.required,Validators.pattern("^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()])[a-zA-Z\d!@#$%^&*()]{7,10}$")]],
     confirmpasswordvalue:[,[Validators.required]]
 
   },

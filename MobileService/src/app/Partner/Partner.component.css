@@ -1,0 +1,186 @@
+*
+{
+
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+.introContent p,.howtoPartnerDiv p{
+  margin-top: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-align: center;
+
+ }
+.partnerContents h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+   font-size: 1.5rem;
+   text-align: center;
+   margin-top: 3rem;
+   padding-top: 1rem;
+}
+.howtoPartnerDiv h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+   font-size: 1.5rem;
+   text-align: center;
+   padding-top: 1rem;
+}
+.innerContentMainDiv
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.innerContentDiv1
+{
+  height: 14rem;
+  width: 25rem;
+  margin-top: 3rem;
+  margin-left: 7rem;
+  border: 2px solid powderblue;
+  border-radius: 2rem;
+  box-shadow: 7px 8px 5px -5px rgba(64,42,122,0.75)
+}
+.innerContentDiv1 h3
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 20px;
+  color:rgb(14, 182, 205);
+
+}
+.innerContentDiv1 p
+{
+  margin-top: 1rem;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+  text-align: center;
+}
+#reg-namehd {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.main-reg {
+  /* margin-left: 40%; */
+  box-shadow: 0px 2px 9px 2px rgba(204, 203, 203, 0.95);
+  width: 26rem;
+  height: 27rem;
+  border-radius: 2rem;
+}
+
+.main-reg form {
+  text-align: center;
+}
+
+form input {
+  border: none;
+  border-bottom: 2px solid green;
+  outline: 0;
+  padding: 2px 10px;
+
+}
+
+.reg-fn,
+.reg-phone,
+.reg-email,
+.reg-san
+ {
+  padding: 5px 0px;
+}
+
+.reg-main-grid {
+  display: grid;
+  grid-template-columns: 30% 35% 35%;
+
+}
+
+.main-reg {
+  margin-top: 2rem;
+  transform: translateX(26.5rem);
+  margin-bottom: 2rem;
+}
+
+.regbtn {
+  border-radius: 2rem;
+
+}
+
+#btnreg {
+  padding: 6px 30px;
+  color: green;
+  background-color: green;
+  border: none;
+  border-radius: 2rem;
+}
+
+#btnregspn {
+  font-style: normal;
+  font-weight: 100;
+  color: aquamarine;
+
+}
+
+input::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#regdob {
+  padding-left: 3rem;
+}
+
+input::placeholder {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+
+
+}
+
+.reg-dob::placeholder {
+  color: green;
+}
+
+.regbtn {
+  padding-top: 15px;
+}
+
+#passjs1,#passjs2,#passjs3,#passjs4,#passjs5,#passjs6{
+  text-decoration: none;
+  list-style: none;
+  font-size: 10px;
+  text-align: left;
+  padding-left: 110px;
+
+
+
+
+
+}
+
+/* #passContainer{
+  display: none;
+  visibility: hidden;
+} */
+.alert p{
+  margin-top:-10px;
+  color: red;
+  /* position: absolute; */
+  font-size: 12px;
+}
+.spaceForClass{
+  padding: 8px 0px;
+}
+.howtoPartnerDiv
+{
+  border-top: 3px solid powderblue;
+}
