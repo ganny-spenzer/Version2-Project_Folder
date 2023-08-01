@@ -4,12 +4,12 @@
 
 background-color: powderblue;
 }
-.ftr-div1 ul li,.ftr-div2 ul li,.ftr-div3 ul li,.ftr-div4 ul li {
+.footerDiv1 ul li,.footerDiv2 ul li,.footerDiv3 ul li,.footerDiv4 ul li {
   text-decoration: none;
   list-style: none;
   padding-top: 0.3rem;
 }
-.ftr-div1 ul li a,.ftr-div2 ul  li a,.ftr-div3 ul  li a,.ftr-div4 ul  li a{
+.footerDiv1 ul li a,.footerDiv2 ul  li a,.footerDiv3 ul  li a,.footerDiv4 ul  li a{
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 0.9rem;
@@ -17,7 +17,7 @@ background-color: powderblue;
 
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.ftr-div1 p,.ftr-div2 p,.ftr-div3 p,.ftr-div4 p{
+.footerDiv1 p,.footerDiv2 p,.footerDiv3 p,.footerDiv4 p{
   padding-top: 2rem;
   font-size: 1.5rem;
   color: black;
@@ -30,12 +30,12 @@ padding-left: 3rem;
   font-size: 0.9rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  .ftr-div1 ul, .ftr-div2 ul, .ftr-div3 ul, .ftr-div4 ul{
+  .footerDiv1 ul, .footerDiv2 ul, .footerDiv3 ul, .footerDiv4 ul{
     padding-top: 0.3rem;
     padding-left: 3rem;
     padding-bottom: 2rem;
     }
-    .ftr-div1 ul li, .ftr-div2 ul li, .ftr-div3 ul li, .ftr-div4 ul li{
+    .footerDiv1 ul li, .footerDiv2 ul li, .footerDiv3 ul li, .footerDiv4 ul li{
       padding-top: 5px;
     }
 #logoFix{

@@ -66,10 +66,10 @@ export class NewoffersComponent  {
   }
 
   openpopup() {
-    if (this.hours == '2' && (this.minutes >= '6' && this.seconds <= '02') && this.years == '2023' && this.months == '6' && this.todayDate == '26') {
+    if (this.hours == '17' && (this.minutes >= '36' && this.seconds <= '00') && this.years == '2023' && this.months == '8' && this.todayDate == '1') {
       this.popup = true;
     }
-    if (this.hours == '3' && this.minutes >= '40' && this.years == '2023' && this.months == '6' && this.todayDate == '26') {
+    if (this.hours == '18' && this.minutes >= '00' && this.years == '2023' && this.months == '8' && this.todayDate == '1') {
       this.popup = false;
     }
   }

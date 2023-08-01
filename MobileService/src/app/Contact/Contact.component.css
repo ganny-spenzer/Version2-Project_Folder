@@ -1,320 +1,188 @@
-*
-{
-
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-box-sizing: border-box;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-
-.menu_bar {
-    background-color: powderblue;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    animation: menu_bar 2s ease-out;
-
-}
-
-@keyframes menu_bar {
-    0% {
-        transform: translateY(-100%);
-    }
-}
-
-.menu_bar ul {
-    list-style: none;
-    display: flex;
-}
-
-.menu_bar ul li {
-    padding: 10px 20px;
-}
-
-.menu_bar ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    position: relative;
-    transition: all 0.3s;
-    padding: 7px 10px;
-    background-color: black;
-    border-radius: 2rem;
-
-
-
-}
-
-
-.menu_bar ul li :hover {
-    color: white;
-    /* background:black  */
-}
-
-.dropdown_menu {
-    display: none;
-    position: absolute;
-}
-
-.menu_bar ul li:hover .dropdown_menu {
-    display: block;
-    /* display: none; */
-    position: absolute;
-    top: 3.6rem;
-    width: 14%;
-    transform: translateX(-25%);
-    background-color:powderblue;
-
-}
-
-.dropdown_menu ul {
-
-    display: block;
-}
-
-.dropdown_menu ul li {
-    padding: 10px 30px;
-}
-
-.dropdown_menu ul li a {
-    background-color: powderblue;
-}
-
-.dropdown_menu ul li a:hover {
-    color: black;
-}
-
-.menu_bar ul li a:hover {
-    color: black;
-    background-color: white;
-}
-
-#imge {
-    margin: -3.8rem;
-}
-
-#reachus {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 1.7rem;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.contact-us-head {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.contact-us-head::after{
-    content: '';
-    position: absolute;
-    border:solid powderblue;
-    min-width: 11rem;
-    transform: translateY(1.6rem);
-
-}
-#conp1,#conp2{
-    /* font-weight: bold; */
-    /* letter-spacing: 1px; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-        font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    text-align: center;
-
-}
-.why-to-contact{
-    background-color: powderblue;
-    height:6rem;
-}
-#conp1{
-    padding-top: 1rem;
-}
-.con-main-grid{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    border-bottom: 1.5px solid rgb(124, 203, 213);
-    padding-bottom: 3rem;
-}
-.con-main-grid1 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-        font-size: 15px;
-        text-align: center;
-     padding-top: 10px;
-
-}
-.con-main-grid2 p{
-    padding-top: 35px;
-    text-align: center;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-        font-size: 17px;
-}
-.con-main-grid3 p a{
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-        font-size: 18px;
-        text-decoration: none;
-        color: green;
-        text-align: center;
-
-}
-.con-main-grid3 p{
-    text-align: center;
-}
-.con-main-grid3 p{
-    padding-top: 30px;
-}
-.con-main-grid4 p {
-    padding-top: 5px;
-   letter-spacing: 2px;
-   text-align: center;
-   font-size: 27px;
-}
-#congridh1,#congridh2,#congridh3,#congridh4{
-    text-align: center;
-}
-#congridh1,#congridh2,#congridh3,#congridh4{
-    color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-    font-weight: 500;
-    background-color: powderblue;
-    /* width: 15rem; */
-    border-radius:2rem 2rem 0 0 ;
-}
-.con-main-grid1{
-    width: 15rem;
-    height: 10rem;
-    border: 2px solid rgb(19, 209, 234);
-    border-radius: 2rem;
-    margin-left: 2rem;
-}
-.con-main-grid2{
-    width: 15rem;
-    height: 10rem;
-    border: 2px solid rgb(19, 209, 234);
-    border-radius: 2rem;
-    margin-left: 2rem;
-}
-.con-main-grid3{
-    width: 15rem;
-    height: 10rem;
-    border: 2px solid rgb(19, 209, 234);
-    border-radius: 2rem;
-    margin-left: 2rem;
-}
-.con-main-grid4{
-    width: 15rem;
-    height: 10rem;
-    border: 2px solid rgb(19, 209, 234);
-    border-radius: 2rem;
-    margin-left: 2rem;
-}
-#fbid{
-    margin-top: 2rem;
-    padding-left: 3.2rem;
-    font-size: 25px;
-}
-#twtrid,#linkdinid,#instaid{
-    padding: 0px 8px;
-    font-size: 25px;
-
 }
 
-.conmain-cnt-grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
+#reachUs {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 1rem;
 }
-#conmaingridim{
-    transform: translateX(5rem);
+
+.contactUsHedingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-input{
+.contact-us-head::after {
+  content: "";
+  position: absolute;
+  border: solid powderblue;
+  min-width: 11rem;
+  transform: translateY(1.6rem);
+}
+#contentP1,
+#contentP2 {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  text-align: center;
+}
+.whyToContactDiv {
+  background-color: powderblue;
+  height: 6rem;
+}
+#contentP1 {
+  padding-top: 1rem;
+}
+.contentMainGridDiv {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border-bottom: 1.5px solid rgb(124, 203, 213);
+  padding-bottom: 3rem;
+}
+.contentGridDiv1 p {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+.contentGridDiv2 p {
+  padding-top: 35px;
+  text-align: center;
+
+  font-size: 17px;
+}
+.contentGridDiv3 p a {
+  font-size: 18px;
+  text-decoration: none;
+  color: green;
+  text-align: center;
+}
+.contentGridDiv3 p {
+  text-align: center;
+}
+.contentGridDiv3 p {
+  padding-top: 30px;
+}
+.contentGridDiv4 p {
+  padding-top: 5px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 27px;
+}
+#contentGridH1,
+#contentGridH2,
+#contentGridH3,
+#contentGridH4 {
+  text-align: center;
+  color: black;
+
+  font-weight: 500;
+  background-color: powderblue;
+
+  border-radius: 2rem 2rem 0 0;
+}
+
+.contentGridDiv1,
+.contentGridDiv2,
+.contentGridDiv3,
+.contentGridDiv4 {
+  width: 15rem;
+  height: 10rem;
+  border: 2px solid rgb(19, 209, 234);
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+
+#fbid {
+  margin-top: 2rem;
+  padding-left: 3.2rem;
+  font-size: 25px;
+}
+#twtrid,
+#linkdinid,
+#instaid {
+  padding: 0px 8px;
+  font-size: 25px;
+}
+
+.contentBottomMainGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+input {
   padding: 2px;
 }
 
-.concmntform{
-    margin-left: 2rem;
+.commentContentForm {
+  margin-left: 2rem;
 }
-.concmntemail,.concmntphn,.concmnttarea{
-    padding: 1rem 0px;
+.commentContentEmailDiv,
+.commentContentPhoneDiv,
+.commentContentAreaDiv {
+  padding: 1rem 0px;
 }
-.con-main-grid2:hover{
-    transform: scale(1.1);
-    z-index: 1;
+.contentGridDiv2:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
-.con-main-grid1:hover{
-    transform: scale(1.1);
-    z-index: 1;
+.contentGridDiv1:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
-.con-main-grid3:hover{
-    transform: scale(1.1);
-    z-index: 1;
+.contentGridDiv3:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
-.con-main-grid4:hover{
-    transform: scale(1.1);
-    z-index: 1;
+.contentGridDiv4:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
-#confeedback{
-    padding-right: 6rem;
+#confeedback {
+  padding-right: 6rem;
 }
-.conqns-cmnts{
-   width: 65%;
-   height: 21.5rem;
-   border-radius: 2rem;
-   padding-left: 1rem;
-   box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.75);
+.contentBottomGridDiv2 {
+  width: 65%;
+  height: 21.5rem;
+  border-radius: 2rem;
+  padding-left: 1rem;
+  box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.75);
 }
-#conh41{
-    margin-top: 1rem;
-    font-family:'Montserrat' ;
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-#concmnteml::placeholder,#conphno::placeholder,#confeedback::placeholder{
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-
-
+#contentH4 {
+  margin-top: 1rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
-#conbtnid{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#contentButtonSpan {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    color: aqua;
+  color: aqua;
+}
+button {
+  background-color: green;
+  border-radius: 1.5rem;
+  padding: 2px 5px;
+  box-shadow: none;
+  border: none;
+}
+.dropdown_menu {
+  z-index: 1;
+  border-radius: 1rem;
+}
+#highlight {
+  color: black;
+  background-color: white;
+}
 
-}
-button{
-   background-color: green;
-   border-radius: 1.5rem;
-   padding: 2px 5px;
-   box-shadow: none;
-   border: none;
-}
-.dropdown_menu{
-    z-index: 1;
-    border-radius: 1rem;
-}
-#highlight
-
-{
-   color: black;
-   background-color: white;
+textarea {
+  width: 20rem;
 }

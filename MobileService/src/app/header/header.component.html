@@ -1,8 +1,6 @@
-<div class="menu_bar">
+<div class="navBarDiv">
   <img src="../../assets/photos/Just.png" alt="img" width="16%" height="70%" id="imge">
-  <!-- <div class="locationDiv">
-    <a [routerLink]="'/popup'"><p><i class="fa-solid fa-location-dot"></i> Select Your Location</p></a>
-  </div> -->
+
 
   <ul>
       <li> <a routerLink="/home" routerLinkActive="active" id="highlight"> Home</a> </li>
@@ -10,10 +8,10 @@
       <li> <a [routerLink]="'/popup'"  routerLinkActive="active" >Service</a> </li>
 
 
-      <li> <a href="#">More<i class="fas fa-caret-down"></i></a>
+      <li> <a [routerLink]="">More<i class="fas fa-caret-down"></i></a>
 
 
-          <div class="dropdown_menu">
+          <div class="navDropDownDiv">
               <ul>
                   <li><a [routerLink]="'/newoffers'">New Offers</a></li>
                   <li><a [routerLink]="'/upcoming'">Upcoming </a></li>

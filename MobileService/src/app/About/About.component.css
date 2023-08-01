@@ -1,121 +1,114 @@
-*
-{
-
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-box-sizing: border-box;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-overflow-x: hidden;
-overflow-y: hidden;
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
- .about-head h2{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-weight: 500;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 3rem;
-    padding-top: 1rem;
- }
+.aboutHeading h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
 
- .about-head p{
-    /* padding: 5px 0; */
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 0.5px;
-    line-height: 30px;
- }
- #abt-h1{
-    padding-top: 1rem;
- }
- .about-head {
-
-    height: 8.5rem;
-    /* background-color: powderblue; */
- }
- .about-strong h2{
+.aboutHeading p {
+  /* padding: 5px 0; */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+#aboutH1 {
+  padding-top: 1rem;
+}
+.aboutHeading {
+  height: 8.5rem;
+  /* background-color: powderblue; */
+}
+.aboutStrongDiv h2 {
   margin-top: 2rem;
-   font-weight: 500;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    padding-bottom: 10px;
-    /* border-bottom: 1.5px solid green; */
- }
- .abt-cont-grid{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 2.7rem;
-
- }
- .abt-cont-grid1,.abt-cont-grid2,.abt-cont-grid3{
-
-    margin-top: 3rem;
-    text-align: center;
-    height: 10rem;
-    width: 12rem;
-    background-color: powderblue;
-    border-radius: 2rem;
-    box-shadow: 7px 8px 5px -5px rgba(64,42,122,0.75);
- }
- .abt-cont-grid1 p,.abt-cont-grid2 p,.abt-cont-grid3 p{
-    margin-top: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-weight: 500;
-    line-height: 30px;
-
-
- }
- .count{
-    color: red;
-    font-size: 2.5rem;
-    font-weight: 500;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
- }
-
-#highlight
-
-{
-   color: black;
-   background-color: white;
-}
-.firstDivContent h2,.secondDivContent h2,.thirdDivContent h2{
   font-weight: 500;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5rem;
   text-align: center;
-
+  padding-bottom: 10px;
 }
-.firstDivContent p,.secondDivContent p,.thirdDivContent p{
+.aboutContentMainGrid {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2.7rem;
+}
+.aboutContentGrid1,
+.aboutContentGrid2,
+.aboutContentGrid3 {
+  margin-top: 3rem;
+  text-align: center;
+  height: 10rem;
+  width: 12rem;
+  background-color: powderblue;
+  border-radius: 2rem;
+  box-shadow: 7px 8px 5px -5px rgba(64, 42, 122, 0.75);
+}
+.aboutContentGrid1 p,
+.aboutContentGrid2 p,
+.aboutContentGrid3 p {
+  margin-top: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-weight: 500;
+  line-height: 30px;
+}
+.count {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 500;
 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#highlight {
+  color: black;
+  background-color: white;
+}
+.firstDivContent h2,
+.secondDivContent h2,
+.thirdDivContent h2 {
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.firstDivContent p,
+.secondDivContent p,
+.thirdDivContent p {
   text-align: center;
   line-height: 30px;
   letter-spacing: 0.5px;
   margin-top: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
-.firstDivContent,.secondDivContent,.thirdDivContent{
-  /* background-color: powderblue; */
+.firstDivContent,
+.secondDivContent,
+.thirdDivContent {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.divBanner1{
+.divBanner1 {
   margin-top: 3rem;
   height: 30rem;
   width: 90%;
 }
-.divBanner1 img{
+.divBanner1 img {
   height: 100%;
   width: 100%;
- transform: translateX(8rem);
+  transform: translateX(8rem);
 }
-.thirdDivContent
-{
+.thirdDivContent {
   margin-top: 2rem;
 }
