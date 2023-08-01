@@ -539,10 +539,33 @@
       "passwordvalue": "Ganesh@1",
       "confirmpasswordvalue": "Ganesh@1",
       "id": 3
+    },
+    {
+      "namevalue": "viper",
+      "emailvalue": "mdk@gmail.com",
+      "mobilevalue": "9876653454",
+      "passwordvalue": "Ganesh@1",
+      "confirmpasswordvalue": "Ganesh@1",
+      "id": 4
     }
   ],
   "shopapply": [
-
+    {
+      "shopnamevalue": "viper",
+      "shopownernamevalue": "ds",
+      "emailvalue": "wq@gmail.com",
+      "shopownermobilevalue": "9876543212",
+      "shopaddressvalue": "as",
+      "id": 1
+    },
+    {
+      "shopnamevalue": "Viper",
+      "shopownernamevalue": "ggs",
+      "emailvalue": "gd@gmail.com",
+      "shopownermobilevalue": "8799968999",
+      "shopaddressvalue": "dfdf",
+      "id": 2
+    }
   ],
   "shopDetails": [
     {

@@ -13,19 +13,19 @@ import { ApplictionformService } from '../applictionform.service';
 export class PartnerComponent  {
 
   constructor(private fb:FormBuilder,private applicationservice:ApplictionformService,private route:Router) { }
-  formComplete=this.fb.group({
+  shopFormComplete=this.fb.group({
     shopnamevalue:[,[Validators.required,Validators.pattern("^(?!.*([a-zA-Z])\\1\\1)[a-zA-Z]+$")]],
     shopownernamevalue:[,[Validators.required,Validators.pattern("^(?!.*([a-zA-Z])\\1\\1)[a-zA-Z]+$")]],
     emailvalue:[,[Validators.required,Validators.pattern("^[0-9a-zA-Z]+[._]{0,1}[0-9a-zA-Z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}$")]],
-    ownermobilevalue: [, [Validators.required, Validators.pattern("^[6-9](?!.*(\\d)\\1{4})\\d{9}$")]],
+    shopownermobilevalue: [, [Validators.required, Validators.pattern("^[6-9](?!.*(\\d)\\1{4})\\d{9}$")]],
     shopaddressvalue:[,[Validators.required]],
 
 
   },
 
   );
-  submitForm() {
-   if(this.formComplete.valid){ this.applicationservice.shopApply(this.formComplete.value).subscribe((data) => {
+  submitShopForm() {
+   if(this.shopFormComplete.valid){ this.applicationservice.shopApply(this.shopFormComplete.value).subscribe((data) => {
       alert('Form Submitted');
       this.route.navigate(['/home']);
     });

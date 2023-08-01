@@ -31,7 +31,7 @@
   <h3>How to Partner With Us?</h3>
   <p>We are excited to collaborate with service centre owners like you to provide users with the best mobile repair services. To initiate the partnership process, please fill out our Service Centre Application Form which is given below.Once it is filled,we will reach you out shortly.</p>
   <div class="main-reg">
-    <form [formGroup]="formComplete" (submit)="submitForm()">
+    <form [formGroup]="shopFormComplete" (submit)="submitShopForm()">
       <h2 id="reg-namehd">Application Form</h2>
       <div class="reg-fn">
         <input
@@ -43,11 +43,11 @@
         />
 
         <div class="spaceForClass"></div>
-        <div *ngIf="formComplete.controls['shopnamevalue'].dirty" class="alert">
-          <p *ngIf="formComplete.controls['shopnamevalue'].errors?.['required']">
+        <div *ngIf="shopFormComplete.controls['shopnamevalue'].dirty" class="alert">
+          <p *ngIf="shopFormComplete.controls['shopnamevalue'].errors?.['required']">
             Shop Name should not be empty
           </p>
-          <p *ngIf="formComplete.controls['shopnamevalue'].errors?.['pattern']">
+          <p *ngIf="shopFormComplete.controls['shopnamevalue'].errors?.['pattern']">
             Shop Name should contains only alphabets
           </p>
         </div>
@@ -61,11 +61,11 @@
         />
 
         <div class="spaceForClass"></div>
-        <div *ngIf="formComplete.controls['shopownernamevalue'].dirty" class="alert">
-          <p *ngIf="formComplete.controls['shopownernamevalue'].errors?.['required']">
+        <div *ngIf="shopFormComplete.controls['shopownernamevalue'].dirty" class="alert">
+          <p *ngIf="shopFormComplete.controls['shopownernamevalue'].errors?.['required']">
             Shop Owner Name should not be empty
           </p>
-          <p *ngIf="formComplete.controls['shopownernamevalue'].errors?.['pattern']">
+          <p *ngIf="shopFormComplete.controls['shopownernamevalue'].errors?.['pattern']">
             Shop Owner Name should contains only alphabets
           </p>
         </div>
@@ -77,17 +77,17 @@
           type="tel"
           maxlength="10"
           required
-          formControlName="mobilevalue"
+          formControlName="shopownermobilevalue"
 
           placeholder="Phone Number"
         />
         <div class="spaceForClass"></div>
 
-        <div *ngIf="formComplete.controls['ownermobilevalue'].dirty" class="alert">
-          <p *ngIf="formComplete.controls['ownermobilevalue'].errors?.['required']">
+        <div *ngIf="shopFormComplete.controls['shopownermobilevalue'].dirty" class="alert">
+          <p *ngIf="shopFormComplete.controls['shopownermobilevalue'].errors?.['required']">
             Mobile Number should not be empty
           </p>
-          <p *ngIf="formComplete.controls['ownermobilevalue'].errors?.['pattern']">
+          <p *ngIf="shopFormComplete.controls['shopownermobilevalue'].errors?.['pattern']">
             Enter a valid mobile number
           </p>
         </div>
@@ -101,11 +101,11 @@
         />
         <div class="spaceForClass"></div>
 
-        <div *ngIf="formComplete.controls['emailvalue'].dirty" class="alert">
-          <p *ngIf="formComplete.controls['emailvalue'].errors?.['required']">
+        <div *ngIf="shopFormComplete.controls['emailvalue'].dirty" class="alert">
+          <p *ngIf="shopFormComplete.controls['emailvalue'].errors?.['required']">
             Email should not be empty
           </p>
-          <p *ngIf="formComplete.controls['emailvalue'].errors?.['pattern']">
+          <p *ngIf="shopFormComplete.controls['emailvalue'].errors?.['pattern']">
             Enter a valid email
           </p>
         </div>
@@ -120,15 +120,15 @@
         />
 
         <div class="spaceForClass"></div>
-        <div *ngIf="formComplete.controls['shopaddressvalue'].dirty" class="alert">
-          <p *ngIf="formComplete.controls['shopaddressvalue'].errors?.['required']">
+        <div *ngIf="shopFormComplete.controls['shopaddressvalue'].dirty" class="alert">
+          <p *ngIf="shopFormComplete.controls['shopaddressvalue'].errors?.['required']">
             Address should not be empty
           </p>
 
         </div>
       </div>
       <div class="regbtn">
-        <button id="btnreg" type="submit" [disabled]="!formComplete.valid">
+        <button id="btnreg" type="submit" [disabled]="!shopFormComplete.valid">
           <span id="btnregspn"> Submit</span>
         </button>
       </div>

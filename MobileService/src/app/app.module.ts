@@ -23,10 +23,11 @@ import { GaneshGuard } from './ganesh.guard';
 import { AdminComponent } from './Admin/Admin.component';
 import { AdminproductComponent } from './adminproduct/adminproduct.component';
 import { PartnerComponent } from './Partner/Partner.component';
+import { TestComponent } from './test/test.component';
 
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
       HomeComponent,
       FooterComponent,
@@ -44,7 +45,8 @@ import { PartnerComponent } from './Partner/Partner.component';
       ServiceCentreDescriptionComponent,
       AdminComponent,
       AdminproductComponent,
-      PartnerComponent
+      PartnerComponent,
+      TestComponent
    ],
   imports: [
     BrowserModule,
