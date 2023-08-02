@@ -24,10 +24,12 @@ import { AdminComponent } from './Admin/Admin.component';
 import { AdminproductComponent } from './adminproduct/adminproduct.component';
 import { PartnerComponent } from './Partner/Partner.component';
 import { TestComponent } from './test/test.component';
+import { RouterModule } from '@angular/router';
+
 
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
       HomeComponent,
       FooterComponent,
@@ -54,7 +56,8 @@ import { TestComponent } from './test/test.component';
     HttpClientModule,
     NgImageSliderModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
 
 
   ],

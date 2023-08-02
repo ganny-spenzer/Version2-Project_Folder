@@ -64,13 +64,13 @@ overflow-y: hidden;
   line-height: 25px;
   text-align: center;
 }
-#reg-namehd {
+#formHeading {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   font-size: 2rem;
 }
 
-.main-reg {
+.partnerFormDiv {
   /* margin-left: 40%; */
   box-shadow: 0px 2px 9px 2px rgba(204, 203, 203, 0.95);
   width: 26rem;
@@ -78,7 +78,7 @@ overflow-y: hidden;
   border-radius: 2rem;
 }
 
-.main-reg form {
+.partnerFormDiv form {
   text-align: center;
 }
 
@@ -90,32 +90,27 @@ form input {
 
 }
 
-.reg-fn,
-.reg-phone,
-.reg-email,
-.reg-san
+.formNameDiv,
+.formPhoneDiv,
+.formEmailDiv,
+.formAddressDiv
  {
   padding: 5px 0px;
 }
 
-.reg-main-grid {
-  display: grid;
-  grid-template-columns: 30% 35% 35%;
 
-}
-
-.main-reg {
+.partnerFormDiv {
   margin-top: 2rem;
   transform: translateX(26.5rem);
   margin-bottom: 2rem;
 }
 
-.regbtn {
+.formButtonDiv {
   border-radius: 2rem;
 
 }
 
-#btnreg {
+#formButtonId {
   padding: 6px 30px;
   color: green;
   background-color: green;
@@ -123,7 +118,7 @@ form input {
   border-radius: 2rem;
 }
 
-#btnregspn {
+#formButtonSpan {
   font-style: normal;
   font-weight: 100;
   color: aquamarine;
@@ -134,9 +129,6 @@ input::placeholder {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#regdob {
-  padding-left: 3rem;
-}
 
 input::placeholder {
   text-align: center;
@@ -146,31 +138,15 @@ input::placeholder {
 
 }
 
-.reg-dob::placeholder {
-  color: green;
-}
 
-.regbtn {
+
+.formButtonDiv {
   padding-top: 15px;
 }
 
-#passjs1,#passjs2,#passjs3,#passjs4,#passjs5,#passjs6{
-  text-decoration: none;
-  list-style: none;
-  font-size: 10px;
-  text-align: left;
-  padding-left: 110px;
 
 
 
-
-
-}
-
-/* #passContainer{
-  display: none;
-  visibility: hidden;
-} */
 .alert p{
   margin-top:-10px;
   color: red;

@@ -3,7 +3,7 @@ import { SharedServiceService } from '../SharedService.service';
 @Component({
   selector: 'app-PopupDisplay',
   templateUrl: './PopupDisplay.component.html',
-  styleUrls: ['./PopupDisplay.component.css']
+  styleUrls: ['./PopupDisplay.component.css'],
 })
 export class PopupDisplayComponent implements OnInit {
   selectedCity: string | undefined;
@@ -11,14 +11,11 @@ export class PopupDisplayComponent implements OnInit {
     this.sharedService.selectedCity = city;
   }
 
-  constructor(private sharedService: SharedServiceService) {
+  constructor(private sharedService: SharedServiceService) {}
 
+  ngOnInit() {}
+  show = true;
+  close() {
+    this.show = false;
   }
-
-  ngOnInit() {
-  }
-show=true;
-close(){
-  this.show=false;
-}
 }

@@ -13,8 +13,8 @@ export class NewoffersComponent  {
 
   constructor(private http:ProductDataService) {
     this.http.getDeals().subscribe(data=>this.allDeals=data)
-    this.http.getflipkartdeals().subscribe(data=>this.allflipkartDeals=data)
-    this.http.getcromadeals().subscribe(data=>this.allcromaDeals=data)
+    this.http.getFlipkartDeals().subscribe(data=>this.allflipkartDeals=data)
+    this.http.getCromaDeals().subscribe(data=>this.allcromaDeals=data)
 
 
 

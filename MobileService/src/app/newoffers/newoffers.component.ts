@@ -15,8 +15,8 @@ export class NewoffersComponent  {
 
   constructor(private http:ProductDataService) {
     this.http.getDeals().subscribe(data=>this.allDeals=data)
-    this.http.getflipkartdeals().subscribe(data=>this.allflipkartDeals=data)
-    this.http.getcromadeals().subscribe(data=>this.allcromaDeals=data)
+    this.http.getFlipkartDeals().subscribe(data=>this.allflipkartDeals=data)
+    this.http.getCromaDeals().subscribe(data=>this.allcromaDeals=data)
     this.time();
 
 
@@ -60,20 +60,20 @@ export class NewoffersComponent  {
       this.ampm = '' + AP + '';
       this.todayDate = '' + today + '';
 
-      this.openpopup();
+      this.openPopUp();
 
     }, 1000);
   }
 
-  openpopup() {
-    if (this.hours == '17' && (this.minutes >= '36' && this.seconds <= '00') && this.years == '2023' && this.months == '8' && this.todayDate == '1') {
+  openPopUp() {
+    if (this.hours == '8' && (this.minutes >= '38' && this.seconds <= '02') && this.years == '2023' && this.months == '8' && this.todayDate == '2') {
       this.popup = true;
     }
-    if (this.hours == '18' && this.minutes >= '00' && this.years == '2023' && this.months == '8' && this.todayDate == '1') {
+    if (this.hours == '8' && this.minutes >= '39' && this.years == '2023' && this.months == '8' && this.todayDate == '2') {
       this.popup = false;
     }
   }
-  closepopup() {
+  closePopUp() {
     this.popup = false;
   }
 

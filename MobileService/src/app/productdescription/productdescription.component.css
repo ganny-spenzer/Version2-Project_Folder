@@ -1,111 +1,28 @@
 * {
-  padding:0;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.menu_bar{
-background-color: powderblue;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between ;
-  padding: 0 5%;
-  animation: menu_bar 2s ease-out;
 
-}
-@keyframes menu_bar{
-  0%{
-      transform: translateY(-100%);
-  }
-}
-
-.menu_bar ul{
-  list-style: none;
-  display: flex;
-}
-.menu_bar ul li{
-  padding: 10px 20px;
-}
-.menu_bar ul li a{
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-  position: relative;
-  transition: all 0.3s;
- padding: 7px 10px;
- background-color: black;
- border-radius: 2rem;
-
-
-
-}
-
-.dropdown_menu{
- z-index: 5;
- border-radius: 2rem;
-}
-.menu_bar ul li :hover{
-  color:white;
- /* background:black  */
-}
-.dropdown_menu{
-    display: none;
-    position: absolute;
-}
-
-.menu_bar ul li:hover .dropdown_menu  {
-  display: block;
-  /* display: none; */
-  position: absolute;
-  top: 3.6rem;
-  width:14%;
-  transform: translateX(-25%);
-background-color:powderblue;
-
-}
-
-.dropdown_menu ul {
-
-display: block;
-}
-
-.dropdown_menu ul li{
-  padding: 10px 30px;
-}
-.dropdown_menu ul li a{
- background-color: rgb(90, 57, 118);
-}
-.dropdown_menu ul li a:hover{
-  color: black;
-}
-.menu_bar ul li a:hover{
-  color: black;
-  background-color: white;
-}
-#imge{
-  margin: -3.8rem;
-}
-.asus-hd1 h1{
+.productModelNameDiv h1 {
   font-family: Trebuchet MS;
   font-size: 2.5rem;
   text-align: center;
   margin-top: 1rem;
 }
 
-.star-status{
+.RatingMainDiv {
   display: grid;
   grid-template-columns: 10% 90%;
 }
-.content-status2{
+.ratingDiv2 {
   margin-left: 1rem;
   display: grid;
   grid-template-rows: 50% 50%;
-  /* margin-left: 1rem; */
 }
 
-#rt-statushd{
+#ratingDiv1H1 {
   background-color: rgb(22, 170, 22);
   color: white;
   width: 6.4rem;
@@ -114,101 +31,80 @@ display: block;
   padding-left: 5px;
   border-radius: 0.2rem;
   font-size: 5rem;
- float: right;
- transform: translateX(-rem);
+  float: right;
+  transform: translateX(-rem);
 }
 
-#ct-status{
+#ratingDiv2P1 {
   font-size: 1.5rem;
   font-family: Trebuchet MS;
   font-weight: 200;
 }
-.sub2-content-status{
-transform: translateY(-1.1rem);
+.ratingDiv2SubDiv2 {
+  transform: translateY(-1.1rem);
 }
-.sub2-content-status p,.sub1-content-status p{
+.ratingDiv2SubDiv2 p,
+.ratingDiv2SubDiv1 p {
   font-family: Trebuchet MS;
-
 }
-#group-rank{
+#groupRank {
   font-weight: 700;
   font-size: 1rem;
   color: rgb(239, 56, 56);
 }
-.spec-content{
-  /* background-color: rgb(250, 233, 233);
-  width: 20rem; */
+.specificationContentMainDiv {
   margin-left: 1rem;
 }
-#gn-hd{
-
+#contentHeading {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: powderblue;
-  border-radius: 1.1rem 1.1rem 0 0 ;
+  border-radius: 1.1rem 1.1rem 0 0;
   padding-left: 1rem;
 
-
-
-
-  font-size:1.4rem;
+  font-size: 1.4rem;
   font-weight: 400;
-  color:black;
-
-
-
+  color: black;
 }
-.general-content p{
+.contentDiv p {
   margin-top: 0.3rem;
-
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   line-height: 1.5rem;
-
 }
-.general-content{
-padding-bottom: 12px;
-
+.contentDiv {
+  padding-bottom: 12px;
 
   border-radius: 1.3rem;
   border: 2px solid rgb(136, 200, 208);
 }
-.spec-hd{
-margin-left: 1rem;
-
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size:1.9rem;
-font-weight: 100;
-}
-
-#desc-hd{
-
+.specificationHeading {
+  margin-left: 1rem;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-font-size:1.9rem;
-font-weight: 800;
+  font-size: 1.9rem;
+  font-weight: 100;
 }
-#desc-p{
-padding-top: 1rem;
+
+#descriptionHeading {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-line-height: 1.5rem;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+#descriptionPara {
+  padding-top: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  line-height: 1.5rem;
 }
 
-
-.asus-description{
-margin-left: 1rem;
-}
-.dropdown_menu{
-z-index: 1;
-border-radius: 1rem;
-}
-.asus-description
-{
+.ProductDescription {
+  margin-left: 1rem;
   display: none;
 }
-.imageMainSlider{
+
+.imageMainSlider {
   display: grid;
   display: flex;
   grid-template-columns: 1fr 1fr 1fr;
@@ -216,22 +112,20 @@ border-radius: 1rem;
   align-items: center;
   align-content: center;
 }
-.imgSlider{
-
+.imgSlider {
   height: 22rem;
   width: 17rem;
   padding: 0 0.5rem;
-
 
   margin: 2rem 3rem;
   border: 1px solid red;
   border-radius: 5px;
 }
-.imgSlider img:hover{
-transform: scaleY(1.1)
+.imgSlider img:hover {
+  transform: scaleY(1.1);
 }
-.imgSlider img{
-margin-top: 7%;
+.imgSlider img {
+  margin-top: 7%;
   height: 90%;
   width: 100%;
   object-fit: contain;

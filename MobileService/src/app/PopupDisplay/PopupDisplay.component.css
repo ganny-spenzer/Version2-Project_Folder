@@ -1,44 +1,43 @@
-.popupHead{
+.popupHead {
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content:space-between ;
+  justify-content: space-between;
 }
-.imgDiv{
+.imgDiv {
   margin-left: 1rem;
 }
-.crossDiv i{
- margin-right: 1rem;
- color: black;
+.crossDiv i {
+  margin-right: 1rem;
+  color: black;
 }
-.cityHeading{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+.cityHeading {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.cityHeading h2{
+.cityHeading h2 {
   margin-top: 2rem;
   text-align: center;
 }
-.OverallGrid{
+.OverallGrid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-.CityGrid{
+.CityGrid {
   margin-top: 2rem;
 }
-.CityGrid a{
+.CityGrid a {
   text-decoration: none;
   color: black;
-
 }
-.buildLogo,.buildCity{
+.buildLogo,
+.buildCity {
   text-align: center;
-
 }
-.buildCity{
+.buildCity {
   margin-top: 0.5rem;
 }
-.buildCity p{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+.buildCity p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

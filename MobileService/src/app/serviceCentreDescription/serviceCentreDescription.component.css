@@ -1,6 +1,5 @@
 * {
   letter-spacing: 1px;
-
 }
 .divPhotos {
   display: grid;
@@ -44,7 +43,6 @@
   margin-left: 5px;
   margin-top: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 #addressInfo {
   margin-left: 5px;
@@ -62,11 +60,10 @@
   border-radius: 5px;
   border: 1px solid rgb(217, 209, 209);
   font-family: Arial, Helvetica, sans-serif;
-
 }
 .secondFirstDiv,
 .secondSecondDiv {
-  border-bottom:1px solid rgb(217, 209, 209) ;
+  border-bottom: 1px solid rgb(217, 209, 209);
   border-top: 1px solid rgb(217, 209, 209);
   border-radius: 1rem;
 }
@@ -125,7 +122,6 @@
 .firstDiv h2,
 .secondDiv h2,
 .thirdDiv h2 {
-
   font-family: Arial, Helvetica, sans-serif;
 
   font-size: 1rem;
@@ -143,7 +139,7 @@
 .quickinfoDiv2 h2,
 .serviceInfo h2,
 .secondSecondDiv h2,
-.reportErrorDiv h2{
+.reportErrorDiv h2 {
   margin-left: 15px;
   margin-top: 1rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -158,16 +154,14 @@
 .quickinfoMainDiv1 h2 {
   margin-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
-
 }
-#priceId{
+#priceId {
   font-weight: bold;
 }
 .quickinfoMainDiv1 p {
   margin-left: 15px;
   line-height: 140%;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 .quickinfoMainDiv {
   margin-top: 1rem;
@@ -178,9 +172,8 @@
 .quickinfoDiv p {
   margin-top: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-
 }
-.quickinfoMainDiv2 p{
+.quickinfoMainDiv2 p {
   transform: translateX(1rem);
 }
 #daysId1,
@@ -213,94 +206,86 @@
   border-left: 1px solid rgb(217, 209, 209);
   margin-left: 1rem;
 }
-.secondSecondDiv h2,.bottomDiv1 h2 {
+.secondSecondDiv h2,
+.bottomDiv1 h2 {
   font-family: Arial, Helvetica, sans-serif;
-
 
   padding-left: 8px;
   padding-top: 3px;
 }
 
-#moreinfoP1
-{  font-family: Arial, Helvetica, sans-serif;
+#moreinfoP1 {
+  font-family: Arial, Helvetica, sans-serif;
 
   padding: 17px 5px 17px 8px;
 
-font-size: 0.9rem;
-border-bottom: 0.5px solid rgb(217, 209, 209);
+  font-size: 0.9rem;
+  border-bottom: 0.5px solid rgb(217, 209, 209);
 }
-.moreinfoDiv1 a{
+.moreinfoDiv1 a {
   font-family: Arial, Helvetica, sans-serif;
 
   text-decoration: none;
   color: black;
 }
-.moreinfoDiv1{
+.moreinfoDiv1 {
   margin-top: 0.7rem;
   margin-left: 5px;
 
-
-  border-bottom: 0.5px solid rgb(217, 209, 209) ;
+  border-bottom: 0.5px solid rgb(217, 209, 209);
 }
-.moreinfoDiv1 p{
+.moreinfoDiv1 p {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 2rem;
 
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   margin-bottom: 0.7rem;
-
 }
-.moreinfoDiv1 i{
+.moreinfoDiv1 i {
   transform: translateX(-18px);
 }
-.moreinfoDiv1 p:hover
-{
-background-color: rgb(237, 230, 230) ;
-background-size: cover;
+.moreinfoDiv1 p:hover {
+  background-color: rgb(237, 230, 230);
+  background-size: cover;
 }
 
-.reportErrorDiv
- p{
+.reportErrorDiv p {
   margin-left: 4px;
   margin-top: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 130%;
 
   font-size: 0.9rem;
- }
- .reportErrorDiv a{
+}
+.reportErrorDiv a {
   text-decoration: none;
- }
-#linkP{
-  /* text-decoration: none; */
-  /* color: black; */
+}
+#linkP {
   font-family: Arial, Helvetica, sans-serif;
   width: fit-content;
   padding: 12px 20px;
-  border:1px solid rgb(16, 127, 142);
+  border: 1px solid rgb(16, 127, 142);
   margin-left: 3rem;
   transform: translateY(2rem);
   text-align: center;
   font-size: 1.2rem;
   border-radius: 1.2rem;
 }
-#linkP:hover{
+#linkP:hover {
   transition: 1s;
-background-color: rgb(237, 230, 230);
+  background-color: rgb(237, 230, 230);
 }
-.bottomMainDiv
-{
+.bottomMainDiv {
   display: grid;
   grid-template-columns: 60% 40%;
-
 }
-.bottomDiv1 h2{
+.bottomDiv1 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   margin-left: 15px;
 }
-.bottomDiv1{
+.bottomDiv1 {
   height: fit-content;
   padding-bottom: 1rem;
   margin-top: 1rem;
@@ -309,25 +294,24 @@ background-color: rgb(237, 230, 230);
   border-bottom: 1px solid rgb(217, 209, 209);
   border-radius: 1rem;
 }
-.bottomDiv2 h2{
+.bottomDiv2 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   margin-left: 15px;
-
 }
-.bottomDiv2{
+.bottomDiv2 {
   height: fit-content;
   padding-bottom: 1rem;
   margin-left: 10px;
   margin-top: 1rem;
-  border:1px solid rgb(217, 209, 209);
+  border: 1px solid rgb(217, 209, 209);
   border-radius: 1rem;
 }
-.innerreviewMainDiv{
+.innerreviewMainDiv {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-#reviewInput1{
+#reviewInput1 {
   margin-left: 3px;
   padding-right: 4.7rem;
   padding-top: 10px;
@@ -336,70 +320,68 @@ background-color: rgb(237, 230, 230);
 
   margin-top: 2rem;
 }
-.innerreviewDiv2{
+.innerreviewDiv2 {
   height: 15rem;
   width: 15rem;
 }
-.innerreviewDiv2 img{
+.innerreviewDiv2 img {
   margin-top: 10px;
   height: 90%;
   width: 102%;
 }
-#reviewComment{
+#reviewComment {
   margin-left: 3px;
   padding-right: 20rem;
   padding-top: 1rem;
   padding-bottom: 6rem;
 }
-#reviewButton
-{
+#reviewButton {
   font-family: Arial, Helvetica, sans-serif;
-padding: 4px 8px;
-border-radius: 0.5rem;
+  padding: 4px 8px;
+  border-radius: 0.5rem;
   margin-top: 2rem;
   background-color: yellowgreen;
   cursor: pointer;
   color: white;
   outline: none;
 }
-.bottomDiv2 button{
-margin-left: 14rem;
+.bottomDiv2 button {
+  margin-left: 14rem;
 }
-.productandServiceDiv{
+.productandServiceDiv {
   margin-top: 1rem;
-  border-top:1px solid rgb(217, 209, 209) ;
+  border-top: 1px solid rgb(217, 209, 209);
   padding-bottom: 5px;
-
 }
-.productandServiceDiv h2{
+.productandServiceDiv h2 {
   padding-top: 5px;
 
   margin-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.productandServiceDiv p{
+.productandServiceDiv p {
   margin-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   line-height: 130%;
   margin-top: 0.5rem;
 }
-.frequentQnDiv{
+.frequentQnDiv {
   margin-top: 1rem;
-  border-top:1px solid rgb(217, 209, 209) ;
+  border-top: 1px solid rgb(217, 209, 209);
 }
-.frequentQnDiv h2,.frequentQnDiv h3{
+.frequentQnDiv h2,
+.frequentQnDiv h3 {
   margin-left: 15px;
   margin-top: 1rem;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
-.frequentQnDiv h3{
+.frequentQnDiv h3 {
   font-size: 1.1rem;
 }
-.frequentQnDiv p{
+.frequentQnDiv p {
   margin-top: 2px;
   font-size: 0.9rem;
   margin-left: 2.4rem;
-  font-family: Arial, Helvetica, sans-serif
-
+  font-family: Arial, Helvetica, sans-serif;
 }

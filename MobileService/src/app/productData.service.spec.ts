@@ -2,11 +2,13 @@
 
 import { TestBed, async, inject } from '@angular/core/testing';
 import { ProductDataService } from './productData.service';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('Service: ProductData', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [ProductDataService]
+      providers: [ProductDataService],
+      imports:[HttpClientTestingModule],
     });
   });
 

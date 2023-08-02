@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MobileService';
-  // name='Ganesh';
-  // update(){
-  //   this.name='Viper'
-  // }
-  // name='../assets/photos/1 Banner.jpg';
   parent:string='John';
 }

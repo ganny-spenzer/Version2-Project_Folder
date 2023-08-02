@@ -1,12 +1,14 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async, inject } from '@angular/core/testing';
-import { ApplictionformService } from './applictionform.service';
+import { ApplictionformService } from './applicationform.service';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('Service: Applictionform', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [ApplictionformService]
+      providers: [ApplictionformService],
+      imports: [HttpClientTestingModule],
     });
   });
 

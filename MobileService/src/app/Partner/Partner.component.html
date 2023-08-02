@@ -30,49 +30,49 @@
 <div class="howtoPartnerDiv">
   <h3>How to Partner With Us?</h3>
   <p>We are excited to collaborate with service centre owners like you to provide users with the best mobile repair services. To initiate the partnership process, please fill out our Service Centre Application Form which is given below.Once it is filled,we will reach you out shortly.</p>
-  <div class="main-reg">
+  <div class="partnerFormDiv">
     <form [formGroup]="shopFormComplete" (submit)="submitShopForm()">
-      <h2 id="reg-namehd">Application Form</h2>
-      <div class="reg-fn">
+      <h2 id="formHeading">Application Form</h2>
+      <div class="formNameDiv">
         <input
           type="text"
 
           formControlName="shopnamevalue"
           placeholder="Shop Name"
-          name="namevalue"
+
         />
 
         <div class="spaceForClass"></div>
         <div *ngIf="shopFormComplete.controls['shopnamevalue'].dirty" class="alert">
           <p *ngIf="shopFormComplete.controls['shopnamevalue'].errors?.['required']">
-            Shop Name should not be empty
+            Shop name should not be empty
           </p>
           <p *ngIf="shopFormComplete.controls['shopnamevalue'].errors?.['pattern']">
-            Shop Name should contains only alphabets
+            Shop name should contains only alphabets
           </p>
         </div>
       </div>
-      <div class="reg-fn">
+      <div class="formNameDiv">
         <input
           type="text"
           formControlName="shopownernamevalue"
           placeholder="Shop Owner Name"
-          name="shopownernamevalue"
+
         />
 
         <div class="spaceForClass"></div>
         <div *ngIf="shopFormComplete.controls['shopownernamevalue'].dirty" class="alert">
           <p *ngIf="shopFormComplete.controls['shopownernamevalue'].errors?.['required']">
-            Shop Owner Name should not be empty
+            Shop owner name should not be empty
           </p>
           <p *ngIf="shopFormComplete.controls['shopownernamevalue'].errors?.['pattern']">
-            Shop Owner Name should contains only alphabets
+            Shop owner name should contains only alphabets
           </p>
         </div>
       </div>
 
 
-      <div class="reg-phone">
+      <div class="formPhoneDiv">
         <input
           type="tel"
           maxlength="10"
@@ -85,7 +85,7 @@
 
         <div *ngIf="shopFormComplete.controls['shopownermobilevalue'].dirty" class="alert">
           <p *ngIf="shopFormComplete.controls['shopownermobilevalue'].errors?.['required']">
-            Mobile Number should not be empty
+            Mobile number should not be empty
           </p>
           <p *ngIf="shopFormComplete.controls['shopownermobilevalue'].errors?.['pattern']">
             Enter a valid mobile number
@@ -93,7 +93,7 @@
         </div>
       </div>
 
-      <div class="reg-email">
+      <div class="formEmailDiv">
         <input
           type="email"
           formControlName="emailvalue"
@@ -111,7 +111,7 @@
         </div>
 
       </div>
-      <div class="reg-san">
+      <div class="formAddressDiv">
         <input
           type="text"
          formControlName="shopaddressvalue"
@@ -127,9 +127,9 @@
 
         </div>
       </div>
-      <div class="regbtn">
-        <button id="btnreg" type="submit" [disabled]="!shopFormComplete.valid">
-          <span id="btnregspn"> Submit</span>
+      <div class="formButtonDiv">
+        <button id="formButtonId" type="submit" [disabled]="!shopFormComplete.valid">
+          <span id="formButtonSpan"> Submit</span>
         </button>
       </div>
 

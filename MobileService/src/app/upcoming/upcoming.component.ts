@@ -11,7 +11,7 @@ export class UpcomingComponent implements OnInit {
 HomeImages: any;
   constructor(private upcomingService:ProductDataService) {
         this.upcomingService.getProducts().subscribe( data  =>  this.products = data  );
-        
+
   }
 
 

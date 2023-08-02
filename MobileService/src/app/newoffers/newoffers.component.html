@@ -1,47 +1,25 @@
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-<div class="menu_bar">
-  <img src="../../assets/photos/Just.png" alt="img" width="16%" height="70%" id="imge">
-
-  <ul>
-      <li> <a [routerLink]="'/home'"><i class="fa-solid fa-mobile-screen-button"></i> Home</a> </li>
-
-
-      <li> <a [routerLink]="'/about'" id="highlight">About</a> </li>
-      <li> <a href="#">More<i class="fas fa-caret-down"></i></a>
-          <div class="dropdown_menu">
-              <ul>
-                  <li><a [routerLink]="'/newoffers'">New Offers</a></li>
-                  <li><a [routerLink]="'/upcoming'">Upcoming </a></li>
-                  <li><a [routerLink]="'/contact'"><i class="fa-solid fa-phone"></i> Contact</a></li>
-                  <li><a href="#"> Dashboard</a></li>
-              </ul>
-          </div>
-      </li>
-      <li> <a [routerLink]="'/login'">Login </a>
-  </ul>
-
-</div> -->
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 />
 <app-header></app-header>
 <div class="popContainer" *ngIf="popup">
-  <i class="fas fa-times" (click)="closepopup()"></i>
+  <i class="fas fa-times" (click)="closePopUp()"></i>
   <div class="popImg">
     <img src="../../assets/photos/flipkart big bilion days.png" alt="img" />
   </div>
 </div>
-<div class="headlineAmz">
-  <p id="paraAmz2">
+<div class="headlineDiv">
+  <p id="paraId1">
     We got you popular deals/offers of mobile phones on various online store
   </p>
-  <p id="paraAmz3">| Amazon | Flipkart | Croma |</p>
+  <p id="paraId2">| Amazon | Flipkart | Croma |</p>
 </div>
-<div class="amazonDealshd">
+<div class="amazonDealsHdDiv">
   <h1>
     Amazon Deals
-    <span id="amazonDealshdLine"
+    <span
+      id="amazonDealsHdLine"
       >--------------------------------------------------------------------------------------------------------------------------------------------------</span
     >
   </h1>
@@ -49,34 +27,33 @@
 
 <div class="top1Banner">
   <div class="innertopDiv">
-    <a href=""
-      ><img src="../../assets/photos/Oneplus Main Banner.jpg" alt=""
-    /></a>
+    <a href=""><img src="../../assets/photos/Oneplus Main Banner.jpg" alt="" /></a>
   </div>
 </div>
-<div class="topoftheweek">
+<div class="topOftheWeekDiv">
   <img src="../../assets/photos/Top Deals of the Week BAnner.jpg" alt="" />
 </div>
 <div class="phoneDisplay">
   <div class="phoneDisplayItem" *ngFor="let deal of allDeals">
-    <a href="{{ deal.amazonlinkvalue }}"><img src="{{ deal.amazonimagevalue }}" alt="" /></a>
+    <a href="{{ deal.amazonlinkvalue }}"
+      ><img src="{{ deal.amazonimagevalue }}" alt=""
+    /></a>
   </div>
 </div>
-<div class="flipkartDealshd">
+<div class="flipkartDealsHdDiv">
   <h1>
     Flipkart Deals
-    <span id="flipkartDealshdLine"
+    <span
+      id="flipkartDealsHdLine"
       >--------------------------------------------------------------------------------------------------------------------------------------------------</span
     >
   </h1>
 </div>
-<div class="flipkartimgDiv">
+<div class="flipkartImgDiv1">
   <a href=""> <img src="../../assets/photos/Flipkart Banner.png" alt="" /></a>
 </div>
-<div class="flipkartDealDiv">
-  <a href="">
-    <img src="../../assets/photos/Deal of the week flipkart.png" alt=""
-  /></a>
+<div class="flipkartImgDiv2">
+  <a href=""><img src="../../assets/photos/Deal of the week flipkart.png" alt="" /></a>
 </div>
 <div class="flipkartItemDisplay">
   <div class="flipkartItemMain" *ngFor="let fdeals of allflipkartDeals">
@@ -87,28 +64,30 @@
           <p>{{ fdeals.Contentp }}</p>
           <h2>
             RS.{{ fdeals.Contenthd }}
-            <span id="innerflipkartOffer"> {{ fdeals.Contentspan }}</span>
+            <span id="innerFlipkartOfferSpan"> {{ fdeals.Contentspan }}</span>
           </h2>
         </div>
       </div>
     </a>
   </div>
 </div>
-<div class="cromaDealshd">
+<div class="cromaDealsHdDiv">
   <h1>
     Croma Deals
-    <span id="cromaDealshdLine"
+    <span
+      id="cromaDealsHdLine"
       >-----------------------------------------------------------------------------------------------------------------------------------------------------</span
     >
   </h1>
 </div>
-<div class="cromaDealDiv">
+<div class="cromaImgDiv">
   <a href=""> <img src="../../assets/photos/Croma BAnner.png" alt="" /></a>
 </div>
 <div class="cromaMainDiv">
   <div class="cromadivDeals" *ngFor="let cdeal of allcromaDeals">
     <a href="{{ cdeal.cromalink }}">
-      <img src="{{ cdeal.cromaImg }}" alt=""
-    /></a>
+      <img src="{{ cdeal.cromaImg }}" alt="" />
+    </a>
   </div>
 </div>
+<app-footer></app-footer>

@@ -10,14 +10,7 @@ import { StoreService } from '../store.service';
   styleUrls: ['./registration.component.css']
 })
 export class RegistrationComponent  {
-  // formComplete=new FormGroup({
-  //   namevalue:new FormControl(),
-  //   mobilevalue:new FormControl(),
-  //   emailvalue:new FormControl(),
-  //   passwordvalue:new FormControl(),
-  //   confirmpasswordvalue:new FormControl()
-
-  // });
+ 
 
 
 

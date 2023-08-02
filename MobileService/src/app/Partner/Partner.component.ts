@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators,FormControl } from '@angular/forms';
 import { Router,Route } from '@angular/router';
 import { confirmPasswordValidate } from '../confirmPasswordValidate.validators';
 import { StoreService } from '../store.service';
-import { ApplictionformService } from '../applictionform.service';
+import { ApplictionformService } from '../applicationform.service';
 
 @Component({
   selector: 'app-Partner',
