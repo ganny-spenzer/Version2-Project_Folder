@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { PopupDisplayComponent } from './PopupDisplay.component';
+import { ActivatedRoute, convertToParamMap, RouterLink } from '@angular/router';
 
 describe('PopupDisplayComponent', () => {
   let component: PopupDisplayComponent;
@@ -11,7 +12,16 @@ describe('PopupDisplayComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PopupDisplayComponent ]
+      declarations: [ PopupDisplayComponent ],
+      imports:[RouterLink],
+      providers:[{
+        provide: ActivatedRoute,
+        useValue: {
+          snapshot: {
+            paramMap: convertToParamMap({ /* mock your route params here */ }),
+          },
+        },
+      },]
     })
     .compileComponents();
   }));

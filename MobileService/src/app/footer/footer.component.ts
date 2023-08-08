@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from 'src/environments/environment.development';
-
+import { socialMediaLinks } from 'src/environments/environment.development';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -9,10 +8,10 @@ import { environment } from 'src/environments/environment.development';
 export class FooterComponent implements OnInit {
 
   constructor() { }
-  facebookLink:string=environment.facebookLink;
-  twitterLink:string=environment.twitterLink;
-  linkedInLink:string=environment.linkedInLink;
-  instagramLink:string=environment.instagramLink;
+  facebookLink:string=socialMediaLinks.facebookLink;
+  twitterLink:string=socialMediaLinks.twitterLink;
+  linkedInLink:string=socialMediaLinks.linkedInLink;
+  instagramLink:string=socialMediaLinks.instagramLink;
   ngOnInit() {
   }
 

@@ -4,6 +4,10 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { UpcomingComponent } from './upcoming.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../footer/footer.component';
+import { ActivatedRoute, convertToParamMap, RouterLink } from '@angular/router';
 
 describe('UpcomingComponent', () => {
   let component: UpcomingComponent;
@@ -11,7 +15,16 @@ describe('UpcomingComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UpcomingComponent ]
+      declarations: [ UpcomingComponent,HeaderComponent,FooterComponent ],
+      imports:[HttpClientModule,RouterLink],
+      providers:[{
+        provide: ActivatedRoute,
+        useValue: {
+          snapshot: {
+            paramMap: convertToParamMap({ /* mock your route params here */ }),
+          },
+        },
+      },]
     })
     .compileComponents();
   }));

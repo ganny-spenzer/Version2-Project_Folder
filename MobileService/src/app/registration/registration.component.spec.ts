@@ -4,6 +4,11 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { RegistrationComponent } from './registration.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../footer/footer.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ActivatedRoute, convertToParamMap, RouterLink } from '@angular/router';
 
 describe('RegistrationComponent', () => {
   let component: RegistrationComponent;
@@ -11,7 +16,16 @@ describe('RegistrationComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RegistrationComponent ]
+      declarations: [ RegistrationComponent,HeaderComponent,FooterComponent],
+      imports:[HttpClientModule,ReactiveFormsModule,RouterLink],
+      providers:[{
+        provide: ActivatedRoute,
+        useValue: {
+          snapshot: {
+            paramMap: convertToParamMap({ /* mock your route params here */ }),
+          },
+        },
+      },]
     })
     .compileComponents();
   }));

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from 'src/environments/environment.development';
+import { phoneNumberValues, socialMediaLinks } from 'src/environments/environment.development';
 
 
 @Component({
@@ -10,12 +10,14 @@ import { environment } from 'src/environments/environment.development';
 export class ContactComponent implements OnInit {
 
   constructor() { }
-  facebookLink:string=environment.facebookLink;
-  twitterLink:string=environment.twitterLink;
-  linkedInLink:string=environment.linkedInLink;
-  instagramLink:string=environment.instagramLink;
+  facebookLink:string=socialMediaLinks.facebookLink;
+  twitterLink:string=socialMediaLinks.twitterLink;
+  linkedInLink:string=socialMediaLinks.linkedInLink;
+  instagramLink:string=socialMediaLinks.instagramLink;
+  phoneNumber1:string=phoneNumberValues.phoneNumber1;
+  phoneNumber2:string=phoneNumberValues.phoneNumber2;
   ngOnInit() {
- 
+
   }
 
 }

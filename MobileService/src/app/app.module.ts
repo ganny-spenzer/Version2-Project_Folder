@@ -25,6 +25,8 @@ import { AdminproductComponent } from './adminproduct/adminproduct.component';
 import { PartnerComponent } from './Partner/Partner.component';
 import { TestComponent } from './test/test.component';
 import { RouterModule } from '@angular/router';
+import { LoggerModule, NgxLoggerLevel } from "ngx-logger";
+
 
 
 
@@ -57,7 +59,12 @@ import { RouterModule } from '@angular/router';
     NgImageSliderModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    LoggerModule.forRoot({
+      serverLoggingUrl: '/api/logs',
+      level: NgxLoggerLevel.DEBUG,
+      serverLogLevel: NgxLoggerLevel.ERROR
+    })
 
 
   ],

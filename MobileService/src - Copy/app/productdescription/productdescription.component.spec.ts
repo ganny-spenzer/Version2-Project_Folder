@@ -2,7 +2,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { ProductdescriptionComponent } from './productdescription.component';
 
 describe('ProductdescriptionComponent', () => {
@@ -11,7 +11,8 @@ describe('ProductdescriptionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProductdescriptionComponent ]
+      imports: [HttpClientTestingModule], 
+      declarations: [ProductdescriptionComponent]
     })
     .compileComponents();
   }));

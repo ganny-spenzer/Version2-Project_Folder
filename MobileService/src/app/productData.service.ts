@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment.development';
+import {serviceLinks } from 'src/environments/environment.development';
 @Injectable({
   providedIn: 'root'
 })
@@ -10,27 +10,27 @@ export class ProductDataService {
 constructor(private http:HttpClient) { }
 
 getProducts(){
-  return this.http.get(environment.getProductUrl);
+  return this.http.get(serviceLinks.getProductUrl);
 }
 getDeals(){
-  return this.http.get(environment.amazonUrl);
+  return this.http.get(serviceLinks.amazonUrl);
 }
 getFlipkartDeals(){
-  return this.http.get(' http://localhost:3000/flipkartdeals');
+  return this.http.get(serviceLinks.flipkartUrl);
 }
 getCromaDeals(){
-  return this.http.get(' http://localhost:3000/cromadeals');
+  return this.http.get(serviceLinks.cromaUrl);
 
 }
 getSelectBrands(){
-  return this.http.get(' http://localhost:3000/SelectBrand');
+  return this.http.get(serviceLinks.selectBrandUrl);
 
 }
 getregisterDetails(){
-  return this.http.get(' http://localhost:3000/register');
+  return this.http.get(serviceLinks.registerDetailsUrl);
 
 }
 getShopDetails(): Observable<any>{
-  return this.http.get(' http://localhost:3000/shopDetails')
+  return this.http.get(serviceLinks.getShopDetailsUrl)
 }
 }
